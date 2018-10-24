@@ -1,8 +1,8 @@
 <template name="34e0d310">
   <view class="_view data-v-36c0a1cd">
-    <swiper current="{{active}}" duration="0" bindchange="handleProxy" data-eventid="{{'hPg-0'}}" data-comkey="{{$k}}" class="_swiper data-v-36c0a1cd" style=" {{'min-height:' + height + 'px'}}">
+    <swiper current="{{active}}" duration="0" bindchange="handleProxy" data-eventid="{{'NM7-0'}}" data-comkey="{{$k}}" class="_swiper data-v-36c0a1cd" style=" {{'min-height:' + height + 'px;width:' + width + 'px'}}">
       <swiper-item class="_swiper-item data-v-36c0a1cd">
-        <view class="_view data-v-36c0a1cd swiper-item">进度</view>
+        <view class="_view data-v-36c0a1cd swiper-item">进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度</view>
       </swiper-item>
       <swiper-item class="_swiper-item data-v-36c0a1cd">
         <view class="_view data-v-36c0a1cd swiper-item" style="background-color: #20D785;">发布</view>
@@ -12,19 +12,18 @@
       </swiper-item>
     </swiper>
     <view class="_view data-v-36c0a1cd tab">
-      <view bindtap="handleProxy" data-eventid="{{'UNO-1'}}" data-comkey="{{$k}}" class="_view data-v-36c0a1cd {{active == 0 ? 'item active' : 'item'}}">
+      <view bindtap="handleProxy" data-eventid="{{'aSI-1'}}" data-comkey="{{$k}}" class="_view data-v-36c0a1cd {{active == 0 ? 'item active' : 'item'}}">
         <view class="_view data-v-36c0a1cd">
           <view class="_view data-v-36c0a1cd uni-icon uni-icon-home"></view>
         </view>
         <view class="_view data-v-36c0a1cd">进度</view>
       </view>
-      <view bindtap="handleProxy" data-eventid="{{'sJt-2'}}" data-comkey="{{$k}}" class="_view data-v-36c0a1cd {{active == 1 ? 'item-add active' : 'item-add'}}">
+      <view bindtap="handleProxy" data-eventid="{{'HMS-2'}}" data-comkey="{{$k}}" class="_view data-v-36c0a1cd {{active == 1 ? 'item active' : 'item'}}">
         <view class="_view data-v-36c0a1cd">
           <view class="_view data-v-36c0a1cd uni-icon uni-icon-plus-filled"></view>
         </view>
-        <view class="_view data-v-36c0a1cd text">发布</view>
       </view>
-      <view bindtap="handleProxy" data-eventid="{{'sqp-3'}}" data-comkey="{{$k}}" class="_view data-v-36c0a1cd {{active == 2 ? 'item active' : 'item'}}">
+      <view bindtap="handleProxy" data-eventid="{{'TNv-3'}}" data-comkey="{{$k}}" class="_view data-v-36c0a1cd {{active == 2 ? 'item active' : 'item'}}">
         <view class="_view data-v-36c0a1cd">
           <view class="_view data-v-36c0a1cd uni-icon uni-icon-person"></view>
         </view>
