@@ -25,6 +25,21 @@
             "style": {
                 "navigationBarTitleText": "我的"
             }
+        }, {
+            "path": "pages/speed/speed",
+            "style": {
+                "navigationBarTitleText": "进度"
+            }
+        }, {
+            "path": "pages/analysis/analysis",
+            "style": {
+                "navigationBarTitleText": "分析"
+            }
+        }, {
+            "path": "pages/personal/personal",
+            "style": {
+                "navigationBarTitleText": "我的"
+            }
         }
     ],
     "globalStyle": {

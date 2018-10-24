@@ -3,15 +3,15 @@
     <view class="_view data-v-7f22897e input-group">
       <view class="_view data-v-7f22897e input-row border">
         <text class="_text data-v-7f22897e title">账号：</text>
-        <input type="text" value="{{account}}" bindinput="handleProxy" placeholder="请输入账号" data-eventid="{{'avM-0'}}" data-comkey="{{$k}}" class="_input data-v-7f22897e" />
+        <input type="text" value="{{account}}" bindinput="handleProxy" placeholder="请输入账号" data-eventid="{{'XHD-0'}}" data-comkey="{{$k}}" class="_input data-v-7f22897e" />
       </view>
       <view class="_view data-v-7f22897e input-row">
         <text class="_text data-v-7f22897e title">密码：</text>
-        <input type="text" password="true" value="{{password}}" bindinput="handleProxy" placeholder="请输入密码" data-eventid="{{'2if-1'}}" data-comkey="{{$k}}" class="_input data-v-7f22897e" />
+        <input type="text" password="true" value="{{password}}" bindinput="handleProxy" placeholder="请输入密码" data-eventid="{{'PN5-1'}}" data-comkey="{{$k}}" class="_input data-v-7f22897e" />
       </view>
     </view>
     <view class="_view data-v-7f22897e btn-row">
-      <button type="primary" class="_button data-v-7f22897e primary" bindtap="handleProxy" data-eventid="{{'qJt-2'}}" data-comkey="{{$k}}">登录</button>
+      <button type="primary" class="_button data-v-7f22897e primary" bindtap="handleProxy" data-eventid="{{'PSh-2'}}" data-comkey="{{$k}}">登录</button>
     </view>
     <view class="_view data-v-7f22897e action-row">
       <navigator url="../reg/reg" class="_navigator data-v-7f22897e">注册账号</navigator>
@@ -20,7 +20,7 @@
     </view>
     <view class="_view data-v-7f22897e oauth-row" wx:if="{{hasProvider}}" style=" {{('top:' + (positionTop + 'px') + ';')}}">
       <view class="_view data-v-7f22897e oauth-image" wx:key="provider.value" key="{{provider.value}}" wx:for="{{providerList}}" wx:for-index="index" wx:for-item="provider">
-        <image src="{{provider.image}}" bindtap="handleProxy" data-eventid="{{'5mh-3-'+index}}" data-comkey="{{$k}}" class="_image data-v-7f22897e"></image>
+        <image src="{{provider.image}}" bindtap="handleProxy" data-eventid="{{'pLW-3-'+index}}" data-comkey="{{$k}}" class="_image data-v-7f22897e"></image>
       </view>
     </view>
   </view>

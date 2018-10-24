@@ -1,0 +1,34 @@
+<template name="45f7de50">
+  <view class="_view data-v-4cf24ea6">
+    <swiper current="{{active}}" duration="0" bindchange="handleProxy" data-eventid="{{'cdx-0'}}" data-comkey="{{$k}}" class="_swiper data-v-4cf24ea6" style=" {{'min-height:' + height + 'px;width:' + width + 'px'}}">
+      <swiper-item class="_swiper-item data-v-4cf24ea6">
+        <view class="_view data-v-4cf24ea6 swiper-item">进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度</view>
+      </swiper-item>
+      <swiper-item class="_swiper-item data-v-4cf24ea6">
+        <view class="_view data-v-4cf24ea6 swiper-item" style="background-color: #20D785;">发布</view>
+      </swiper-item>
+      <swiper-item class="_swiper-item data-v-4cf24ea6">
+        <view class="_view data-v-4cf24ea6 swiper-item" style="background-color: #307DCA;">我的</view>
+      </swiper-item>
+    </swiper>
+    <view class="_view data-v-4cf24ea6 tab">
+      <view bindtap="handleProxy" data-eventid="{{'BLw-1'}}" data-comkey="{{$k}}" class="_view data-v-4cf24ea6 {{active == 0 ? 'item active' : 'item'}}">
+        <view class="_view data-v-4cf24ea6">
+          <view class="_view data-v-4cf24ea6 uni-icon uni-icon-home"></view>
+        </view>
+        <view class="_view data-v-4cf24ea6">进度</view>
+      </view>
+      <view bindtap="handleProxy" data-eventid="{{'2qB-2'}}" data-comkey="{{$k}}" class="_view data-v-4cf24ea6 {{active == 1 ? 'item active' : 'item'}}">
+        <view class="_view data-v-4cf24ea6">
+          <view class="_view data-v-4cf24ea6 uni-icon uni-icon-plus-filled"></view>
+        </view>
+      </view>
+      <view bindtap="handleProxy" data-eventid="{{'NQ4-3'}}" data-comkey="{{$k}}" class="_view data-v-4cf24ea6 {{active == 2 ? 'item active' : 'item'}}">
+        <view class="_view data-v-4cf24ea6">
+          <view class="_view data-v-4cf24ea6 uni-icon uni-icon-person"></view>
+        </view>
+        <view class="_view data-v-4cf24ea6">我的</view>
+      </view>
+    </view>
+  </view>
+</template>

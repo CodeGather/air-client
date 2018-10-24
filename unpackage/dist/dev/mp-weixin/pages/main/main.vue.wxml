@@ -1,6 +1,6 @@
 <template name="34e0d310">
   <view class="_view data-v-36c0a1cd">
-    <swiper current="{{active}}" duration="0" bindchange="handleProxy" data-eventid="{{'gPE-0'}}" data-comkey="{{$k}}" class="_swiper data-v-36c0a1cd" style=" {{'min-height:' + height + 'px;width:' + width + 'px'}}">
+    <swiper current="{{active}}" duration="0" bindchange="handleProxy" data-eventid="{{'B7t-0'}}" data-comkey="{{$k}}" class="_swiper data-v-36c0a1cd" style=" {{'min-height:' + height + 'px;width:' + width + 'px'}}">
       <swiper-item class="_swiper-item data-v-36c0a1cd">
         <view class="_view data-v-36c0a1cd swiper-item">进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度</view>
       </swiper-item>
@@ -12,18 +12,18 @@
       </swiper-item>
     </swiper>
     <view class="_view data-v-36c0a1cd tab">
-      <view bindtap="handleProxy" data-eventid="{{'EoG-1'}}" data-comkey="{{$k}}" class="_view data-v-36c0a1cd {{active == 0 ? 'item active' : 'item'}}">
+      <view bindtap="handleProxy" data-eventid="{{'V7Y-1'}}" data-comkey="{{$k}}" class="_view data-v-36c0a1cd {{active == 0 ? 'item active' : 'item'}}">
         <view class="_view data-v-36c0a1cd">
           <view class="_view data-v-36c0a1cd uni-icon uni-icon-home"></view>
         </view>
         <view class="_view data-v-36c0a1cd">进度</view>
       </view>
-      <view bindtap="handleProxy" data-eventid="{{'Ekh-2'}}" data-comkey="{{$k}}" class="_view data-v-36c0a1cd {{active == 1 ? 'item active' : 'item'}}">
+      <view bindtap="handleProxy" data-eventid="{{'K81-2'}}" data-comkey="{{$k}}" class="_view data-v-36c0a1cd {{active == 1 ? 'item active' : 'item'}}">
         <view class="_view data-v-36c0a1cd">
           <view class="_view data-v-36c0a1cd uni-icon uni-icon-plus-filled"></view>
         </view>
       </view>
-      <view bindtap="handleProxy" data-eventid="{{'q7k-3'}}" data-comkey="{{$k}}" class="_view data-v-36c0a1cd {{active == 2 ? 'item active' : 'item'}}">
+      <view bindtap="handleProxy" data-eventid="{{'XfS-3'}}" data-comkey="{{$k}}" class="_view data-v-36c0a1cd {{active == 2 ? 'item active' : 'item'}}">
         <view class="_view data-v-36c0a1cd">
           <view class="_view data-v-36c0a1cd uni-icon uni-icon-person"></view>
         </view>

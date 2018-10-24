@@ -12,19 +12,19 @@
 			</swiper-item>
 		</swiper>
 		<view class="tab">
-			<view :class="active==0?'item active':'item'" @tap="active=0">
+			<view :class="active==0?'item active':'item'" @tap="itemClick(0)">
 				<view>
 					<view class="uni-icon uni-icon-home"></view>
 				</view>
 				<view>进度</view>
 			</view>
-			<view :class="active==1?'item active':'item'" @tap="active=1">
+			<view :class="active==1?'item active':'item'" @tap="itemClick(1)">
 				<view>
 					<view class="uni-icon uni-icon-plus-filled"></view>
 				</view>
 				<!-- <view class="text">发布</view> -->
 			</view>
-			<view :class="active==2?'item active':'item'" @tap="active=2">
+			<view :class="active==2?'item active':'item'" @tap="itemClick(2)">
 				<view>
 					<view class="uni-icon uni-icon-person"></view>
 				</view>
@@ -53,6 +53,15 @@
 					this.width = res.screenWidth;
 				}
 			})
+		},
+		methods: {
+			itemClick: function(e){
+				// this.active = e;
+				console.log(11)
+				uni.reLaunch({
+					url: '../speed/speed'
+				});
+			}
 		}
 	}
 </script>
