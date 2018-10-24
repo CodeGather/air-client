@@ -22,7 +22,7 @@
 				<view>
 					<view class="uni-icon uni-icon-plus-filled"></view>
 				</view>
-				<view class="text">发布</view>
+				<!-- <view class="text">发布</view> -->
 			</view>
 			<view :class="active==2?'item active':'item'" @click="active=2">
 				<view>
@@ -55,8 +55,9 @@
 	}
 </script>
 
-<style lang="scss">
+<style lang="less">
 	@import "../../common/icon.css";
+	@tabWidth:100%/3;
 	.swiper-item {
 		display: flex;
 		width: 100%;
@@ -70,6 +71,7 @@
 		margin-top: 0;
 		color: #929292;
 	}
+	/* 底部导航样式 */ 
 	.tab {
 		position: fixed;
 		z-index: 999;
@@ -79,8 +81,9 @@
 		background-color: #F7F7F7;
 		display: flex;
 		border-top: #CCCCCC 2px solid;
+		/* 导航中间凸起部分 */ 
 		& .item-add {
-			width: 100%/3;
+			width: @tabWidth;
 			color: #929292;
 			display: flex;
 			align-items: center;
@@ -88,29 +91,30 @@
 			justify-content: center;
 			position: relative;
 			text-align: center;
+			& .uni-icon {
+				position: absolute;
+				color: #929292;
+				border-radius: 50%;
+				font-size: 100px;
+				left: 25px;
+				top: -50px;
+				box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 1), 0 5px 8px 0 rgba(0, 0, 0, .14), 0 1px 14px 0 rgba(0, 0, 0, .12);
+			}
+			& .text {
+				font-size: 24px;
+				padding-top: 36px;
+			}
 		}
-	}
-	.item-add .uni-icon {
-		position: absolute;
-		color: #929292;
-		border-radius: 50%;
-		font-size: 100px;
-		left: 25px;
-		top: -50px;
-		box-shadow: 0 3px 5px -1px rgba(0, 0, 0, 1), 0 5px 8px 0 rgba(0, 0, 0, .14), 0 1px 14px 0 rgba(0, 0, 0, .12);
-	}
-	.item-add .text {
-		font-size: 24px;
-		padding-top: 36px;
-	}
-	.tab .item {
-		width: 20%;
-		color: #929292;
-		font-size: 24px;
-		display: flex;
-		align-items: center;
-		flex-direction: column;
-		justify-content: center;
+		/* 底部导航子选项 */ 
+		& .item {
+			width: @tabWidth;
+			color: #929292;
+			font-size: 24px;
+			display: flex;
+			align-items: center;
+			flex-direction: column;
+			justify-content: center;
+		}
 	}
 	.active {
 		color: #20D785 !important;
