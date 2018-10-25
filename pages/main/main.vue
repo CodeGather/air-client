@@ -23,10 +23,20 @@
 			<!-- 第二页分析页面 -->
 			<swiper-item class="page-two" catchtouchmove="stopTouchMove">
 				<div class="container">
-					<view class="canvasView">
-						<view class="title">饼图示例</view>
-						<mpvue-echarts :echarts="echarts" :onInit="pieInit" canvasId="pie" />
-					</view>
+					<swiper :vertical="true" :style="'min-height:'+height+'px'">
+            <swiper-item>
+							<view class="canvasView">
+								<view class="title">饼图示例</view>
+								<mpvue-echarts :echarts="echarts" :onInit="pieInit" canvasId="pie" />
+							</view>
+            </swiper-item>
+            <swiper-item>
+							<view class="canvasView">
+								<view class="title">饼图示例</view>
+								<!-- <mpvue-echarts :echarts="echarts" :onInit="pieInit" canvasId="pie" /> -->
+							</view>
+            </swiper-item>
+					</swiper>
 				</div>
 			</swiper-item>
 			<!-- 第三页我的页面 -->
@@ -286,8 +296,6 @@
 			})
 		}
 	}
-	
-	
 </script>
 
 <style lang="less">
