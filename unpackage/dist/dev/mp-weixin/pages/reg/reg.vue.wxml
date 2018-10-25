@@ -3,19 +3,19 @@
     <view class="_view data-v-7ed53697 input-group">
       <view class="_view data-v-7ed53697 input-row border">
         <text class="_text data-v-7ed53697 title">账号：</text>
-        <input type="text" value="{{account}}" bindinput="handleProxy" placeholder="请输入账号" data-eventid="{{'hjU-0'}}" data-comkey="{{$k}}" class="_input data-v-7ed53697" />
+        <input type="text" value="{{account}}" bindinput="handleProxy" placeholder="请输入账号" data-eventid="{{'7Ok-0'}}" data-comkey="{{$k}}" class="_input data-v-7ed53697" />
       </view>
       <view class="_view data-v-7ed53697 input-row border">
         <text class="_text data-v-7ed53697 title">密码：</text>
-        <input type="text" password="true" value="{{password}}" bindinput="handleProxy" placeholder="请输入密码" data-eventid="{{'n4n-1'}}" data-comkey="{{$k}}" class="_input data-v-7ed53697" />
+        <input type="text" password="true" value="{{password}}" bindinput="handleProxy" placeholder="请输入密码" data-eventid="{{'fhz-1'}}" data-comkey="{{$k}}" class="_input data-v-7ed53697" />
       </view>
       <view class="_view data-v-7ed53697 input-row">
         <text class="_text data-v-7ed53697 title">邮箱：</text>
-        <input type="text" value="{{email}}" bindinput="handleProxy" placeholder="请输入邮箱" data-eventid="{{'Jd2-2'}}" data-comkey="{{$k}}" class="_input data-v-7ed53697" />
+        <input type="text" value="{{email}}" bindinput="handleProxy" placeholder="请输入邮箱" data-eventid="{{'X2D-2'}}" data-comkey="{{$k}}" class="_input data-v-7ed53697" />
       </view>
     </view>
     <view class="_view data-v-7ed53697 btn-row">
-      <button type="primary" class="_button data-v-7ed53697 primary" bindtap="handleProxy" data-eventid="{{'17E-3'}}" data-comkey="{{$k}}">注册</button>
+      <button type="primary" class="_button data-v-7ed53697 primary" bindtap="handleProxy" data-eventid="{{'XtM-3'}}" data-comkey="{{$k}}">注册</button>
     </view>
   </view>
 </template>

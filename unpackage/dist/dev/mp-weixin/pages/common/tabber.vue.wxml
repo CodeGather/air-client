@@ -1,0 +1,23 @@
+<template name="2b39a2e7">
+  <view class="_view data-v-47209708">
+    <view class="_view data-v-47209708 tab">
+      <view bindtap="handleProxy" data-eventid="{{'Quj-0'}}" data-comkey="{{$k}}" class="_view data-v-47209708 {{active == 0 ? 'item active' : 'item'}}">
+        <view class="_view data-v-47209708">
+          <view class="_view data-v-47209708 uni-icon uni-icon-home"></view>
+        </view>
+        <view class="_view data-v-47209708">进度</view>
+      </view>
+      <view bindtap="handleProxy" data-eventid="{{'JCF-1'}}" data-comkey="{{$k}}" class="_view data-v-47209708 {{active == 1 ? 'item active' : 'item'}}">
+        <view class="_view data-v-47209708">
+          <view class="_view data-v-47209708 uni-icon uni-icon-plus-filled"></view>
+        </view>
+      </view>
+      <view bindtap="handleProxy" data-eventid="{{'urM-2'}}" data-comkey="{{$k}}" class="_view data-v-47209708 {{active == 2 ? 'item active' : 'item'}}">
+        <view class="_view data-v-47209708">
+          <view class="_view data-v-47209708 uni-icon uni-icon-person"></view>
+        </view>
+        <view class="_view data-v-47209708">我的</view>
+      </view>
+    </view>
+  </view>
+</template>

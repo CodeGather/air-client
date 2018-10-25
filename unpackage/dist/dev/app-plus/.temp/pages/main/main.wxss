@@ -283,20 +283,66 @@
 .uni-icon-pulldown:before {
   content: '\E588';
 }
-.swiper-item {
+page {
   display: -webkit-box;
   display: -webkit-flex;
   display: flex;
+  min-height: 100%;
+}
+.swiper {
+  width: 750rpx;
+}
+.swiper .page-one .swiper-tab {
   width: 100%;
-  height: 100%;
+  white-space: nowrap;
+  line-height: 90rpx;
+  height: 90rpx;
+}
+.swiper .page-one .swiper-tab .swiper-tab-list {
+  font-size: 30rpx;
+  width: 150rpx;
+  display: inline-block;
   text-align: center;
-  background-color: #ffffff;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  align-items: center;
+  color: #777777;
+}
+.swiper .page-one .swiper-tab .on {
+  color: #FF0000;
+  border-bottom: 5rpx solid #FF0000;
+}
+.swiper .page-one .swiper-box .tab-item {
+  width: 100%;
+  height: 90rpx;
+  line-height: 90rpx;
+  text-align: left;
+  border-bottom: 2rpx solid #EFEFF4;
+}
+.swiper .page-one .swiper-box .index-bd {
+  width: 750rpx;
+  height: 100%;
+  min-height: 100%;
+}
+.swiper .page-two .container {
+  padding-bottom: 30rpx;
+  box-sizing: border-box;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+}
+.swiper .page-two .canvasView {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  flex-direction: column;
 }
 .tab {
   position: fixed;
@@ -329,6 +375,7 @@
   justify-content: center;
 }
 .tab .item:nth-child(2) .uni-icon {
+  border-top: #CCCCCC 2rpx solid;
   border-radius: 50%;
   font-size: 100rpx;
   margin-top: -40rpx;
@@ -341,4 +388,11 @@
 }
 .tab .item.active {
   color: #20D785 !important;
+}
+.ec-canvas.data-v-86502cc6 {
+  width: 100%;
+  height: 100%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
 }

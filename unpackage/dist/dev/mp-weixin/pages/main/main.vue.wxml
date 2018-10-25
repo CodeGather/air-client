@@ -1,29 +1,50 @@
+<import src="/common/echarts/src/echarts.vue.wxml" />
 <template name="34e0d310">
   <view class="_view data-v-36c0a1cd">
-    <swiper current="{{active}}" duration="0" bindchange="handleProxy" data-eventid="{{'B7t-0'}}" data-comkey="{{$k}}" class="_swiper data-v-36c0a1cd" style=" {{'min-height:' + height + 'px;width:' + width + 'px'}}">
-      <swiper-item class="_swiper-item data-v-36c0a1cd">
-        <view class="_view data-v-36c0a1cd swiper-item">进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度进度</view>
+    <swiper class="_swiper data-v-36c0a1cd swiper" current="{{active}}" duration="0" bindchange="handleProxy" data-eventid="{{'4c4-3'}}" data-comkey="{{$k}}" style=" {{'min-height:' + height + 'px'}}">
+      <swiper-item class="_swiper-item data-v-36c0a1cd page-one">
+        <scroll-view id="tab-bar" class="_scroll-view data-v-36c0a1cd swiper-tab" scroll-x scroll-left="{{scrollLeft}}">
+          <block wx:key="tab.id" key="{{tab.id}}" wx:for="{{tabs}}" wx:for-index="index" wx:for-item="tab">
+            <view id="{{tab.id}}" data-current="{{index}}" bindtap="handleProxy" data-eventid="{{'39b-0-'+index}}" data-comkey="{{$k}}" class="_view data-v-36c0a1cd {{['swiper-tab-list', currentTab == index ? 'on' : '']}}">{{tab.name}}</view>
+          </block>
+        </scroll-view>
+        <swiper current="{{currentTab}}" class="_swiper data-v-36c0a1cd swiper-box" duration="300" bindchange="handleProxy" data-eventid="{{'RXZ-2'}}" data-comkey="{{$k}}">
+          <block wx:key="index1" key="{{index1}}" wx:for="{{newsitems}}" wx:for-index="index1" wx:for-item="tab">
+            <swiper-item class="_swiper-item data-v-36c0a1cd">
+              <scroll-view class="_scroll-view data-v-36c0a1cd index-bd" scroll-y bindscrolltolower="handleProxy" data-eventid="{{'3iD-1-'+index1}}" data-comkey="{{$k}}">
+                <block wx:key="index2" key="{{index2}}" wx:for="{{tab}}" wx:for-index="index2" wx:for-item="newsitem">
+                  <view class="_view data-v-36c0a1cd tab-item">{{newsitem.name}}-{{newsitem.label}}</view>
+                </block>
+              </scroll-view>
+            </swiper-item>
+          </block>
+        </swiper>
       </swiper-item>
-      <swiper-item class="_swiper-item data-v-36c0a1cd">
-        <view class="_view data-v-36c0a1cd swiper-item" style="background-color: #20D785;">发布</view>
+      <swiper-item class="_swiper-item data-v-36c0a1cd page-two" catchtouchmove="stopTouchMove">
+        <view class="_div data-v-36c0a1cd container">
+          <view class="_view data-v-36c0a1cd canvasView">
+            <view class="_view data-v-36c0a1cd title">饼图示例</view>
+            <template canvasId="pie" data="{{...$root['0'], ...$root[$kk+'eUN-2'],$root}}" is="2fc5e34b"></template>
+          </view>
+        </view>
       </swiper-item>
       <swiper-item class="_swiper-item data-v-36c0a1cd">
         <view class="_view data-v-36c0a1cd swiper-item" style="background-color: #307DCA;">我的</view>
       </swiper-item>
     </swiper>
     <view class="_view data-v-36c0a1cd tab">
-      <view bindtap="handleProxy" data-eventid="{{'V7Y-1'}}" data-comkey="{{$k}}" class="_view data-v-36c0a1cd {{active == 0 ? 'item active' : 'item'}}">
+      <view bindtap="handleProxy" data-eventid="{{'y9s-4'}}" data-comkey="{{$k}}" class="_view data-v-36c0a1cd {{active == 0 ? 'item active' : 'item'}}">
         <view class="_view data-v-36c0a1cd">
           <view class="_view data-v-36c0a1cd uni-icon uni-icon-home"></view>
         </view>
         <view class="_view data-v-36c0a1cd">进度</view>
       </view>
-      <view bindtap="handleProxy" data-eventid="{{'K81-2'}}" data-comkey="{{$k}}" class="_view data-v-36c0a1cd {{active == 1 ? 'item active' : 'item'}}">
+      <view bindtap="handleProxy" data-eventid="{{'GuT-5'}}" data-comkey="{{$k}}" class="_view data-v-36c0a1cd {{active == 1 ? 'item active' : 'item'}}">
         <view class="_view data-v-36c0a1cd">
           <view class="_view data-v-36c0a1cd uni-icon uni-icon-plus-filled"></view>
         </view>
       </view>
-      <view bindtap="handleProxy" data-eventid="{{'XfS-3'}}" data-comkey="{{$k}}" class="_view data-v-36c0a1cd {{active == 2 ? 'item active' : 'item'}}">
+      <view bindtap="handleProxy" data-eventid="{{'TVg-6'}}" data-comkey="{{$k}}" class="_view data-v-36c0a1cd {{active == 2 ? 'item active' : 'item'}}">
         <view class="_view data-v-36c0a1cd">
           <view class="_view data-v-36c0a1cd uni-icon uni-icon-person"></view>
         </view>
