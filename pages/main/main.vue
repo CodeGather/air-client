@@ -25,17 +25,17 @@
 				<swiper :style="'min-height:'+(height-100)+'px'" :vertical="true">
 					<swiper-item class="page-two-item">
 						<div class="container">
-							<view class="canvasView">
+							<view class="canvasView" style="width:400upx;height:400upx">
 								<view class="title">数据分析</view>
 								<mpvue-echarts :echarts="echarts" :onInit="pieInit" canvasId="pie" />
+								<mpvue-echarts :echarts="echarts" :onInit="DiugInit" canvasId="Diug" @tap="echartclick"/>
 							</view>
 						</div>
 					</swiper-item>
 					<swiper-item class="page-two-item">
 						<div class="container">
-							<view class="canvasView" style="width:400upx;height:400upx">
-								<view class="title">数据分析</view>
-								<mpvue-echarts :echarts="echarts" :onInit="DiugInit" canvasId="Diug" />
+							<view class="canvasView">
+								<view class="title">第二页</view>
 							</view>
 						</div>
 					</swiper-item>
@@ -82,7 +82,7 @@
 	function getPieOption() {
 		return {
 			animation: false,
-			backgroundColor: '#F8F8F8',
+			backgroundColor: '#ffffff',
 			color: ['#37A2DA', '#32C5E9', '#67E0E3', '#91F2DE', '#FFDB5C', '#FF9F7F'],
 			series: [{
 				label: {
@@ -138,15 +138,15 @@
 			series : [{  
 				name:'公里总里程',  
 				type:'pie',  
-				radius: ['50%', '70%'], //饼图的内圈
-				center: ['60%', '60%'], //饼图的位置 
+				radius: ['30%', '60%'], //饼图的内圈
+				center: ['50%', '50%'], //饼图的位置 
 				label:{                 //饼图图形上的文本标签
 					normal:{
 						show:true,
 						position:'inner',   //标签的位置
 						textStyle : {
 							fontWeight : 300 ,
-							fontSize : 16     //文字的字体大小
+							fontSize : 12     //文字的字体大小
 						},
 						formatter:'{d}%'    //显示的文字格式当前为百分比
 					}
@@ -233,6 +233,9 @@
 			this.currentTab = 0;
 		},
 		methods: {
+			echartclick: function(){
+				console.log(1111)
+			},
 			goBrowser() {
 				// #ifdef APP-PLUS
 				plus.runtime.openURL("https://github.com/F-loat/mpvue-echarts");
