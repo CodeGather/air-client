@@ -24,10 +24,16 @@
 			<swiper-item class="page-two" catchtouchmove="stopTouchMove">
 				<swiper :style="'min-height:'+(height-100)+'px'" :vertical="true">
 					<swiper-item class="page-two-item">
+						<scroll-view scroll-y class="scroll-layer" @scroll="scroll">
+								<view id="green" class="scroll-view-item bc_green" :style="'min-height:'+(height-100)+'px'"></view>
+								<view id="red" class="scroll-view-item bc_red" :style="'min-height:'+(height-100)+'px'"></view>
+								<view id="yellow" class="scroll-view-item bc_yellow" :style="'min-height:'+(height-100)+'px'"></view>
+						</scroll-view>
 						<div class="container">
 							<view class="canvasView" style="width:400upx;height:400upx">
-								<view class="title">数据分析</view>
 								<mpvue-echarts :echarts="echarts" :onInit="pieInit" canvasId="pie" />
+							</view>
+							<view class="canvasView" style="width:400upx;height:400upx">
 								<mpvue-echarts :echarts="echarts" :onInit="DiugInit" canvasId="Diug" @tap="echartclick"/>
 							</view>
 						</div>
@@ -49,7 +55,7 @@
         </swiper>
 			</swiper-item>
 			<!-- 第三页我的页面 -->
-			<swiper-item>
+			<swiper-item class="page-three">
 				<view class="swiper-item" style="background-color: #307DCA;">我的</view>
 			</swiper-item>
 		</swiper>
@@ -87,7 +93,8 @@
 			series: [{
 				label: {
 					normal: {
-						fontSize: 14
+						fontSize: 12,
+						position:'inner',   //标签的位置
 					}
 				},
 				type: 'pie',
@@ -121,19 +128,7 @@
 	}
 	
 	function getDiug(){
-		return {  
-			title : {  
-				text: '公里总里程',   
-				x:'left',
-				textStyle:{
-					color:'#ccc',
-					fontSize:25
-				}
-			},  
-			tooltip : {  
-				trigger: 'item',  
-				formatter: "{a} <br/>{b} : {c} KM"  
-			},    
+		return {    
 			calculable : true,  
 			series : [{  
 				name:'公里总里程',  
@@ -233,8 +228,8 @@
 			this.currentTab = 0;
 		},
 		methods: {
-			echartclick: function(){
-				console.log(1111)
+			scroll: function (e) {
+				console.log(e)
 			},
 			goBrowser() {
 				// #ifdef APP-PLUS
@@ -362,7 +357,6 @@
 		}
 	}
 	
-	
 </script>
 
 <style lang="less">
@@ -413,10 +407,25 @@
 		& .page-two{
 			padding: 36upx;
 			box-sizing: border-box;
+			background: #AAAAAA;
 			& .page-two-item{
 				background: @whiColor;
 				border-radius: 20upx;
-				height: 980upx!important;
+				&:first-child{
+					top: 120upx;
+					padding-bottom: 120upx;
+					box-sizing: border-box;
+				}
+				& .scroll-layer{
+					position: absolute;
+					top: 0;
+					left: 0;
+					right: 0;
+					bottom: 0;
+					height: 100%;
+					z-index: 999;
+					opacity: 0;
+				}
 			}
 			& .container {
 				padding-bottom: 30upx;
@@ -434,6 +443,9 @@
 				flex: 1;
 				flex-direction: column;
 			}
+		}
+		& .page-three{
+			
 		}
 	}
 	/* 底部导航样式 */ 

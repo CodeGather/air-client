@@ -324,11 +324,26 @@ page {
 .swiper .page-two {
   padding: 36rpx;
   box-sizing: border-box;
+  background: #AAAAAA;
 }
 .swiper .page-two .page-two-item {
   background: #ffffff;
   border-radius: 20rpx;
-  height: 980rpx!important;
+}
+.swiper .page-two .page-two-item:first-child {
+  top: 120rpx;
+  padding-bottom: 120rpx;
+  box-sizing: border-box;
+}
+.swiper .page-two .page-two-item .scroll-layer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  z-index: 999;
+  opacity: 0;
 }
 .swiper .page-two .container {
   padding-bottom: 30rpx;
