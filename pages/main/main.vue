@@ -22,22 +22,31 @@
 			</swiper-item>
 			<!-- 第二页分析页面 -->
 			<swiper-item class="page-two" catchtouchmove="stopTouchMove">
-				<div class="container">
-					<swiper :vertical="true" :style="'min-height:'+height+'px'">
-            <swiper-item>
+				<swiper :style="'min-height:'+(height-100)+'px'" :vertical="true">
+					<swiper-item class="page-two-item">
+						<div class="container">
 							<view class="canvasView">
-								<view class="title">饼图示例</view>
+								<view class="title">数据分析</view>
 								<mpvue-echarts :echarts="echarts" :onInit="pieInit" canvasId="pie" />
 							</view>
-            </swiper-item>
-            <swiper-item>
-							<view class="canvasView">
-								<view class="title">饼图示例</view>
-								<!-- <mpvue-echarts :echarts="echarts" :onInit="pieInit" canvasId="pie" /> -->
+						</div>
+					</swiper-item>
+					<swiper-item class="page-two-item">
+						<div class="container">
+							<view class="canvasView" style="width:400upx;height:400upx">
+								<view class="title">数据分析</view>
+								<mpvue-echarts :echarts="echarts" :onInit="DiugInit" canvasId="Diug" />
 							</view>
-            </swiper-item>
-					</swiper>
-				</div>
+						</div>
+					</swiper-item>
+					<swiper-item class="page-two-item">
+						<div class="container">
+							<view class="canvasView">
+								<view class="title">第三页</view>
+							</view>
+						</div>
+					</swiper-item>
+        </swiper>
 			</swiper-item>
 			<!-- 第三页我的页面 -->
 			<swiper-item>
@@ -110,6 +119,49 @@
 			}]
 		}
 	}
+	
+	function getDiug(){
+		return {  
+			title : {  
+				text: '公里总里程',   
+				x:'left',
+				textStyle:{
+					color:'#ccc',
+					fontSize:25
+				}
+			},  
+			tooltip : {  
+				trigger: 'item',  
+				formatter: "{a} <br/>{b} : {c} KM"  
+			},    
+			calculable : true,  
+			series : [{  
+				name:'公里总里程',  
+				type:'pie',  
+				radius: ['50%', '70%'], //饼图的内圈
+				center: ['60%', '60%'], //饼图的位置 
+				label:{                 //饼图图形上的文本标签
+					normal:{
+						show:true,
+						position:'inner',   //标签的位置
+						textStyle : {
+							fontWeight : 300 ,
+							fontSize : 16     //文字的字体大小
+						},
+						formatter:'{d}%'    //显示的文字格式当前为百分比
+					}
+				},
+				data:[  
+					{value:50,name:'高速50KM',itemStyle:{normal:{color:'#FE0000'}}},  
+					{value:150,name:'一级150KM',itemStyle:{normal:{color:'#F29700'}}},  
+					{value:150,name:'二级150KM',itemStyle:{normal:{color:'#02B0ED'}}}, 
+					{value:100,name:'三级100KM',itemStyle:{normal:{color:'#55E87D'}}},
+					{value:50,name:'四级50KM',itemStyle:{normal:{color:'#FFE200'}}},
+				]
+			}]  
+		}
+	}
+
 	export default {
 		data() {
 			return {
@@ -122,6 +174,16 @@
 					canvas.setChart(pieChart)
 
 					pieChart.setOption(getPieOption())
+					return pieChart
+				},
+				DiugInit: function (canvas, width, height) {
+					let pieChart = echarts.init(canvas, null, {
+						width: width,
+						height: height
+					})
+					canvas.setChart(pieChart)
+
+					pieChart.setOption(getDiug())
 					return pieChart
 				},
 				active: 0,
@@ -296,6 +358,8 @@
 			})
 		}
 	}
+	
+	
 </script>
 
 <style lang="less">
@@ -344,14 +408,26 @@
 			}
 		}
 		& .page-two{
+			padding: 36upx;
+			box-sizing: border-box;
+			& .page-two-item{
+				background: @whiColor;
+				border-radius: 20upx;
+				height: 980upx!important;
+			}
 			& .container {
 				padding-bottom: 30upx;
 				box-sizing: border-box;
 				flex: 1;
 				flex-direction: column;
+				& .canvasView{
+					display: flex;
+					flex: 1;
+					flex-direction: column;
+				}
 			}
-			& .canvasView{
-				display: flex;
+			& .container,
+			& .canvasView {
 				flex: 1;
 				flex-direction: column;
 			}
