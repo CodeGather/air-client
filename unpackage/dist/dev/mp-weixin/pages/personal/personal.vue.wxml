@@ -1,6 +1,5 @@
 <template name="45f7de50">
-  <view class="_view data-v-4cf24ea6">
+  <view class="_view data-v-4cf24ea6" style=" {{'min-height:' + height + 'px'}}">
     <view class="_view data-v-4cf24ea6 swiper-item">个人中心</view>
-    <page-tabber class="_page-tabber data-v-4cf24ea6"></page-tabber>
   </view>
 </template>

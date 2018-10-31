@@ -1060,6 +1060,15 @@ function gz$gwx_1(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_1)return __WXML_GLOBAL__.ops_cached.$gwx_1
 __WXML_GLOBAL__.ops_cached.$gwx_1=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'19198c15'])
+Z([3,'_div data-v-7fe2530a container'])
+Z([3,'_page-tabber data-v-7fe2530a'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_1);return __WXML_GLOBAL__.ops_cached.$gwx_1
+}
+function gz$gwx_2(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_2)return __WXML_GLOBAL__.ops_cached.$gwx_2
+__WXML_GLOBAL__.ops_cached.$gwx_2=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'2fc5e34b'])
 Z([[7],[3,'canvasId']])
 Z([3,'handleProxy'])
@@ -1069,38 +1078,69 @@ Z(z[2])
 Z(z[1])
 Z([3,'_canvas data-v-86502cc6 ec-canvas'])
 Z([[7],[3,'$k']])
-Z([1,'ewN-0'])
+Z([1,'cYk-0'])
 Z(z[1])
-})(__WXML_GLOBAL__.ops_cached.$gwx_1);return __WXML_GLOBAL__.ops_cached.$gwx_1
-}
-function gz$gwx_2(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_2)return __WXML_GLOBAL__.ops_cached.$gwx_2
-__WXML_GLOBAL__.ops_cached.$gwx_2=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
 })(__WXML_GLOBAL__.ops_cached.$gwx_2);return __WXML_GLOBAL__.ops_cached.$gwx_2
 }
 function gz$gwx_3(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_3)return __WXML_GLOBAL__.ops_cached.$gwx_3
 __WXML_GLOBAL__.ops_cached.$gwx_3=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'6e0ec058'])
-Z([3,'_view data-v-6a91882d'])
-Z(z[1])
-Z([3,'分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析'])
-Z([3,'_page-tabber data-v-6a91882d'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_3);return __WXML_GLOBAL__.ops_cached.$gwx_3
 }
 function gz$gwx_4(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_4)return __WXML_GLOBAL__.ops_cached.$gwx_4
 __WXML_GLOBAL__.ops_cached.$gwx_4=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
-Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'6e0ec058'])
+Z([3,'_view data-v-6a91882d'])
+Z(z[1])
+Z([3,'分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析分析'])
+Z([3,'_page-tabber data-v-6a91882d'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_4);return __WXML_GLOBAL__.ops_cached.$gwx_4
 }
 function gz$gwx_5(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_5)return __WXML_GLOBAL__.ops_cached.$gwx_5
 __WXML_GLOBAL__.ops_cached.$gwx_5=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'6e0ec058'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_5);return __WXML_GLOBAL__.ops_cached.$gwx_5
+}
+function gz$gwx_6(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_6)return __WXML_GLOBAL__.ops_cached.$gwx_6
+__WXML_GLOBAL__.ops_cached.$gwx_6=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'2b39a2e7'])
+Z([3,'_view data-v-47209708'])
+Z([3,'_view data-v-47209708 tab'])
+Z([3,'handleProxy'])
+Z([a,[3,'_view data-v-47209708 '],[[2,'?:'],[[2,'=='],[[7],[3,'active']],[1,0]],[1,'item active'],[1,'item']]])
+Z([[7],[3,'$k']])
+Z([1,'XpS-0'])
+Z(z[1])
+Z([3,'_view data-v-47209708 uni-icon uni-icon-home'])
+Z(z[1])
+Z([3,'进度'])
+Z(z[3])
+Z([a,z[4][1],[[2,'?:'],[[2,'=='],[[7],[3,'active']],[1,1]],[1,'item active'],[1,'item']]])
+Z(z[5])
+Z([1,'5cF-1'])
+Z(z[1])
+Z([3,'_view data-v-47209708 uni-icon uni-icon-plus-filled'])
+Z(z[3])
+Z([a,z[4][1],[[2,'?:'],[[2,'=='],[[7],[3,'active']],[1,2]],[1,'item active'],[1,'item']]])
+Z(z[5])
+Z([1,'zWI-2'])
+Z(z[1])
+Z([3,'_view data-v-47209708 uni-icon uni-icon-person'])
+Z(z[1])
+Z([3,'我的'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_6);return __WXML_GLOBAL__.ops_cached.$gwx_6
+}
+function gz$gwx_7(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_7)return __WXML_GLOBAL__.ops_cached.$gwx_7
+__WXML_GLOBAL__.ops_cached.$gwx_7=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'87eeb09c'])
 Z([3,'_view data-v-7f22897e content'])
@@ -1111,7 +1151,7 @@ Z([3,'账号：'])
 Z([3,'handleProxy'])
 Z([3,'_input data-v-7f22897e'])
 Z([[7],[3,'$k']])
-Z([1,'O6R-0'])
+Z([1,'UNT-0'])
 Z([3,'请输入账号'])
 Z([3,'text'])
 Z([[7],[3,'account']])
@@ -1121,7 +1161,7 @@ Z([3,'密码：'])
 Z(z[6])
 Z(z[7])
 Z(z[8])
-Z([1,'Ltd-1'])
+Z([1,'T8F-1'])
 Z([3,'true'])
 Z([3,'请输入密码'])
 Z(z[11])
@@ -1130,7 +1170,7 @@ Z([3,'_view data-v-7f22897e btn-row'])
 Z(z[6])
 Z([3,'_button data-v-7f22897e primary'])
 Z(z[8])
-Z([1,'wih-2'])
+Z([1,'RPT-2'])
 Z([3,'primary'])
 Z([3,'登录'])
 Z([3,'_view data-v-7f22897e action-row'])
@@ -1154,21 +1194,21 @@ Z([[6],[[7],[3,'provider']],[3,'value']])
 Z(z[6])
 Z([3,'_image data-v-7f22897e'])
 Z(z[8])
-Z([[2,'+'],[1,'Sv3-3-'],[[7],[3,'index']]])
+Z([[2,'+'],[1,'Nft-3-'],[[7],[3,'index']]])
 Z([[6],[[7],[3,'provider']],[3,'image']])
-})(__WXML_GLOBAL__.ops_cached.$gwx_5);return __WXML_GLOBAL__.ops_cached.$gwx_5
+})(__WXML_GLOBAL__.ops_cached.$gwx_7);return __WXML_GLOBAL__.ops_cached.$gwx_7
 }
-function gz$gwx_6(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_6)return __WXML_GLOBAL__.ops_cached.$gwx_6
-__WXML_GLOBAL__.ops_cached.$gwx_6=[];
+function gz$gwx_8(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_8)return __WXML_GLOBAL__.ops_cached.$gwx_8
+__WXML_GLOBAL__.ops_cached.$gwx_8=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'87eeb09c'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_6);return __WXML_GLOBAL__.ops_cached.$gwx_6
+})(__WXML_GLOBAL__.ops_cached.$gwx_8);return __WXML_GLOBAL__.ops_cached.$gwx_8
 }
-function gz$gwx_7(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_7)return __WXML_GLOBAL__.ops_cached.$gwx_7
-__WXML_GLOBAL__.ops_cached.$gwx_7=[];
+function gz$gwx_9(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_9)return __WXML_GLOBAL__.ops_cached.$gwx_9
+__WXML_GLOBAL__.ops_cached.$gwx_9=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'34e0d310'])
 Z([3,'_view data-v-36c0a1cd'])
@@ -1176,7 +1216,7 @@ Z([3,'handleProxy'])
 Z([3,'_swiper data-v-36c0a1cd swiper'])
 Z([[7],[3,'active']])
 Z([[7],[3,'$k']])
-Z([1,'YRz-3'])
+Z([1,'ceb-5'])
 Z([3,'0'])
 Z([a,[3,' '],[[2,'+'],[[2,'+'],[1,'min-height:'],[[7],[3,'height']]],[1,'px']]])
 Z([3,'_swiper-item data-v-36c0a1cd page-one'])
@@ -1192,14 +1232,14 @@ Z(z[2])
 Z([a,[3,'_view data-v-36c0a1cd '],[[4],[[5],[[5],[1,'swiper-tab-list']],[[2,'?:'],[[2,'=='],[[7],[3,'currentTab']],[[7],[3,'index']]],[1,'on'],[1,'']]]]])
 Z(z[5])
 Z([[7],[3,'index']])
-Z([[2,'+'],[1,'Agj-0-'],[[7],[3,'index']]])
+Z([[2,'+'],[1,'ffp-0-'],[[7],[3,'index']]])
 Z(z[17])
 Z([a,[[6],[[7],[3,'tab']],[3,'name']]])
 Z(z[2])
 Z([3,'_swiper data-v-36c0a1cd swiper-box'])
 Z([[7],[3,'currentTab']])
 Z(z[5])
-Z([1,'NkT-2'])
+Z([1,'v7r-2'])
 Z([3,'300'])
 Z([3,'index1'])
 Z(z[14])
@@ -1210,7 +1250,7 @@ Z([3,'_swiper-item data-v-36c0a1cd'])
 Z(z[2])
 Z([3,'_scroll-view data-v-36c0a1cd index-bd'])
 Z(z[5])
-Z([[2,'+'],[1,'6gQ-1-'],[[7],[3,'index1']]])
+Z([[2,'+'],[1,'IVp-1-'],[[7],[3,'index1']]])
 Z([3,'index2'])
 Z([3,'newsitem'])
 Z([[7],[3,'tab']])
@@ -1220,59 +1260,51 @@ Z([3,'_view data-v-36c0a1cd tab-item'])
 Z([a,[[6],[[7],[3,'newsitem']],[3,'name']],[3,'-'],[[6],[[7],[3,'newsitem']],[3,'label']]])
 Z([3,'stopTouchMove'])
 Z([3,'_swiper-item data-v-36c0a1cd page-two'])
+Z([3,'_swiper data-v-36c0a1cd'])
+Z([a,z[8][1],[[2,'+'],[[2,'+'],[1,'min-height:'],[[2,'-'],[[7],[3,'height']],[1,100]]],[1,'px']]])
+Z([1,true])
+Z([3,'_swiper-item data-v-36c0a1cd page-two-item'])
+Z(z[2])
+Z([3,'_scroll-view data-v-36c0a1cd scroll-layer'])
+Z(z[5])
+Z([1,'5W0-3'])
+Z([3,'_view data-v-36c0a1cd scroll-view-item bc_green'])
+Z([3,'green'])
+Z([a,z[8][1],z[51][2]])
+Z([3,'_view data-v-36c0a1cd scroll-view-item bc_red'])
+Z([3,'red'])
+Z([a,z[8][1],z[51][2]])
+Z([3,'_view data-v-36c0a1cd scroll-view-item bc_yellow'])
+Z([3,'yellow'])
+Z([a,z[8][1],z[51][2]])
 Z([3,'_div data-v-36c0a1cd container'])
 Z([3,'_view data-v-36c0a1cd canvasView'])
-Z([3,'_view data-v-36c0a1cd title'])
-Z([3,'饼图示例'])
+Z([3,'width:400rpx;height:400rpx'])
 Z([3,'pie'])
-Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'Ehj-2']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'Wdc-2']]]]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'2fc5e34b'])
-Z(z[36])
+Z(z[68])
+Z(z[69])
+Z(z[2])
+Z([3,'Diug'])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'J9f-3']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z(z[5])
+Z([1,'48U-4'])
+Z(z[72])
+Z(z[53])
+Z(z[67])
+Z(z[68])
+Z([3,'_view data-v-36c0a1cd title'])
+Z([3,'第二页'])
+Z(z[53])
+Z(z[67])
+Z(z[68])
+Z(z[84])
+Z([3,'第三页'])
+Z([3,'_swiper-item data-v-36c0a1cd page-three'])
 Z([3,'_view data-v-36c0a1cd swiper-item'])
 Z([3,'background-color: #307DCA;'])
 Z([3,'我的'])
-Z([3,'_view data-v-36c0a1cd tab'])
-Z(z[2])
-Z([a,z[19][1],[[2,'?:'],[[2,'=='],[[7],[3,'active']],[1,0]],[1,'item active'],[1,'item']]])
-Z(z[5])
-Z([1,'HMC-4'])
-Z(z[1])
-Z([3,'_view data-v-36c0a1cd uni-icon uni-icon-home'])
-Z(z[1])
-Z([3,'进度'])
-Z(z[2])
-Z([a,z[19][1],[[2,'?:'],[[2,'=='],[[7],[3,'active']],[1,1]],[1,'item active'],[1,'item']]])
-Z(z[5])
-Z([1,'g1D-5'])
-Z(z[1])
-Z([3,'_view data-v-36c0a1cd uni-icon uni-icon-plus-filled'])
-Z(z[2])
-Z([a,z[19][1],[[2,'?:'],[[2,'=='],[[7],[3,'active']],[1,2]],[1,'item active'],[1,'item']]])
-Z(z[5])
-Z([1,'Vri-6'])
-Z(z[1])
-Z([3,'_view data-v-36c0a1cd uni-icon uni-icon-person'])
-Z(z[1])
-Z(z[60])
-})(__WXML_GLOBAL__.ops_cached.$gwx_7);return __WXML_GLOBAL__.ops_cached.$gwx_7
-}
-function gz$gwx_8(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_8)return __WXML_GLOBAL__.ops_cached.$gwx_8
-__WXML_GLOBAL__.ops_cached.$gwx_8=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'34e0d310'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_8);return __WXML_GLOBAL__.ops_cached.$gwx_8
-}
-function gz$gwx_9(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_9)return __WXML_GLOBAL__.ops_cached.$gwx_9
-__WXML_GLOBAL__.ops_cached.$gwx_9=[];
-(function(z){var a=11;function Z(ops){z.push(ops)}
-Z([3,'45f7de50'])
-Z([3,'_view data-v-4cf24ea6'])
-Z([3,'_view data-v-4cf24ea6 swiper-item'])
-Z([3,'个人中心'])
-Z([3,'_page-tabber data-v-4cf24ea6'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_9);return __WXML_GLOBAL__.ops_cached.$gwx_9
 }
 function gz$gwx_10(){
@@ -1280,12 +1312,31 @@ if( __WXML_GLOBAL__.ops_cached.$gwx_10)return __WXML_GLOBAL__.ops_cached.$gwx_10
 __WXML_GLOBAL__.ops_cached.$gwx_10=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
-Z([3,'45f7de50'])
+Z([3,'34e0d310'])
 })(__WXML_GLOBAL__.ops_cached.$gwx_10);return __WXML_GLOBAL__.ops_cached.$gwx_10
 }
 function gz$gwx_11(){
 if( __WXML_GLOBAL__.ops_cached.$gwx_11)return __WXML_GLOBAL__.ops_cached.$gwx_11
 __WXML_GLOBAL__.ops_cached.$gwx_11=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'45f7de50'])
+Z([3,'_view data-v-4cf24ea6'])
+Z([a,[3,' '],[[2,'+'],[[2,'+'],[1,'min-height:'],[[7],[3,'height']]],[1,'px']]])
+Z([3,'_view data-v-4cf24ea6 swiper-item'])
+Z([3,'个人中心'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_11);return __WXML_GLOBAL__.ops_cached.$gwx_11
+}
+function gz$gwx_12(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_12)return __WXML_GLOBAL__.ops_cached.$gwx_12
+__WXML_GLOBAL__.ops_cached.$gwx_12=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'45f7de50'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_12);return __WXML_GLOBAL__.ops_cached.$gwx_12
+}
+function gz$gwx_13(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_13)return __WXML_GLOBAL__.ops_cached.$gwx_13
+__WXML_GLOBAL__.ops_cached.$gwx_13=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'290f929a'])
 Z([3,'_view data-v-7a28f669 content'])
@@ -1296,7 +1347,7 @@ Z([3,'邮箱：'])
 Z([3,'handleProxy'])
 Z([3,'_input data-v-7a28f669'])
 Z([[7],[3,'$k']])
-Z([1,'iiC-0'])
+Z([1,'Hzu-0'])
 Z([3,'请输入邮箱'])
 Z([3,'text'])
 Z([[7],[3,'email']])
@@ -1304,22 +1355,22 @@ Z([3,'_view data-v-7a28f669 btn-row'])
 Z(z[6])
 Z([3,'_button data-v-7a28f669 primary'])
 Z(z[8])
-Z([1,'WAp-1'])
+Z([1,'09R-1'])
 Z([3,'primary'])
 Z([3,'提交'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_11);return __WXML_GLOBAL__.ops_cached.$gwx_11
+})(__WXML_GLOBAL__.ops_cached.$gwx_13);return __WXML_GLOBAL__.ops_cached.$gwx_13
 }
-function gz$gwx_12(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_12)return __WXML_GLOBAL__.ops_cached.$gwx_12
-__WXML_GLOBAL__.ops_cached.$gwx_12=[];
+function gz$gwx_14(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_14)return __WXML_GLOBAL__.ops_cached.$gwx_14
+__WXML_GLOBAL__.ops_cached.$gwx_14=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'290f929a'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_12);return __WXML_GLOBAL__.ops_cached.$gwx_12
+})(__WXML_GLOBAL__.ops_cached.$gwx_14);return __WXML_GLOBAL__.ops_cached.$gwx_14
 }
-function gz$gwx_13(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_13)return __WXML_GLOBAL__.ops_cached.$gwx_13
-__WXML_GLOBAL__.ops_cached.$gwx_13=[];
+function gz$gwx_15(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_15)return __WXML_GLOBAL__.ops_cached.$gwx_15
+__WXML_GLOBAL__.ops_cached.$gwx_15=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'2dbbd2c8'])
 Z([3,'_view data-v-7ed53697 content'])
@@ -1330,7 +1381,7 @@ Z([3,'账号：'])
 Z([3,'handleProxy'])
 Z([3,'_input data-v-7ed53697'])
 Z([[7],[3,'$k']])
-Z([1,'BSI-0'])
+Z([1,'2t6-0'])
 Z([3,'请输入账号'])
 Z([3,'text'])
 Z([[7],[3,'account']])
@@ -1340,7 +1391,7 @@ Z([3,'密码：'])
 Z(z[6])
 Z(z[7])
 Z(z[8])
-Z([1,'cAI-1'])
+Z([1,'MOn-1'])
 Z([3,'true'])
 Z([3,'请输入密码'])
 Z(z[11])
@@ -1351,7 +1402,7 @@ Z([3,'邮箱：'])
 Z(z[6])
 Z(z[7])
 Z(z[8])
-Z([1,'K9b-2'])
+Z([1,'sbb-2'])
 Z([3,'请输入邮箱'])
 Z(z[11])
 Z([[7],[3,'email']])
@@ -1359,22 +1410,46 @@ Z([3,'_view data-v-7ed53697 btn-row'])
 Z(z[6])
 Z([3,'_button data-v-7ed53697 primary'])
 Z(z[8])
-Z([1,'5wn-3'])
+Z([1,'5kT-3'])
 Z([3,'primary'])
 Z([3,'注册'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_13);return __WXML_GLOBAL__.ops_cached.$gwx_13
+})(__WXML_GLOBAL__.ops_cached.$gwx_15);return __WXML_GLOBAL__.ops_cached.$gwx_15
 }
-function gz$gwx_14(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_14)return __WXML_GLOBAL__.ops_cached.$gwx_14
-__WXML_GLOBAL__.ops_cached.$gwx_14=[];
+function gz$gwx_16(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_16)return __WXML_GLOBAL__.ops_cached.$gwx_16
+__WXML_GLOBAL__.ops_cached.$gwx_16=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'2dbbd2c8'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_14);return __WXML_GLOBAL__.ops_cached.$gwx_14
+})(__WXML_GLOBAL__.ops_cached.$gwx_16);return __WXML_GLOBAL__.ops_cached.$gwx_16
 }
-function gz$gwx_15(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_15)return __WXML_GLOBAL__.ops_cached.$gwx_15
-__WXML_GLOBAL__.ops_cached.$gwx_15=[];
+function gz$gwx_17(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_17)return __WXML_GLOBAL__.ops_cached.$gwx_17
+__WXML_GLOBAL__.ops_cached.$gwx_17=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([3,'4abe2cee'])
+Z([3,'_div data-v-4f24407d container'])
+Z([3,'_view data-v-4f24407d canvasView'])
+Z([3,'_view data-v-4f24407d title'])
+Z([3,'饼图示例'])
+Z([3,'pie'])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'iQM-0']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'2fc5e34b'])
+Z([[9],[[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[10],[[6],[[7],[3,'$root']],[[2,'+'],[[7],[3,'$kk']],[1,'fkj-1']]]]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'2b39a2e7'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_17);return __WXML_GLOBAL__.ops_cached.$gwx_17
+}
+function gz$gwx_18(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_18)return __WXML_GLOBAL__.ops_cached.$gwx_18
+__WXML_GLOBAL__.ops_cached.$gwx_18=[];
+(function(z){var a=11;function Z(ops){z.push(ops)}
+Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
+Z([3,'4abe2cee'])
+})(__WXML_GLOBAL__.ops_cached.$gwx_18);return __WXML_GLOBAL__.ops_cached.$gwx_18
+}
+function gz$gwx_19(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_19)return __WXML_GLOBAL__.ops_cached.$gwx_19
+__WXML_GLOBAL__.ops_cached.$gwx_19=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([3,'5256f1b8'])
 Z([3,'_view data-v-b8f005e6 content'])
@@ -1383,37 +1458,68 @@ Z([[2,'!'],[[7],[3,'hasLogin']]])
 Z([3,'handleProxy'])
 Z([3,'_button data-v-b8f005e6 primary'])
 Z([[7],[3,'$k']])
-Z([1,'Ub3-0'])
+Z([1,'Mxh-0'])
 Z([3,'primary'])
 Z([3,'登录'])
 Z([[7],[3,'hasLogin']])
 Z(z[4])
 Z([3,'_button data-v-b8f005e6'])
 Z(z[6])
-Z([1,'HtD-1'])
+Z([1,'r6K-1'])
 Z([3,'default'])
 Z([3,'退出登录'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_15);return __WXML_GLOBAL__.ops_cached.$gwx_15
+})(__WXML_GLOBAL__.ops_cached.$gwx_19);return __WXML_GLOBAL__.ops_cached.$gwx_19
 }
-function gz$gwx_16(){
-if( __WXML_GLOBAL__.ops_cached.$gwx_16)return __WXML_GLOBAL__.ops_cached.$gwx_16
-__WXML_GLOBAL__.ops_cached.$gwx_16=[];
+function gz$gwx_20(){
+if( __WXML_GLOBAL__.ops_cached.$gwx_20)return __WXML_GLOBAL__.ops_cached.$gwx_20
+__WXML_GLOBAL__.ops_cached.$gwx_20=[];
 (function(z){var a=11;function Z(ops){z.push(ops)}
 Z([[9],[[10],[[6],[[7],[3,'$root']],[1,'0']]],[[8],'$root',[[7],[3,'$root']]]])
 Z([3,'5256f1b8'])
-})(__WXML_GLOBAL__.ops_cached.$gwx_16);return __WXML_GLOBAL__.ops_cached.$gwx_16
+})(__WXML_GLOBAL__.ops_cached.$gwx_20);return __WXML_GLOBAL__.ops_cached.$gwx_20
 }
 __WXML_GLOBAL__.ops_set.$gwx=z;
 __WXML_GLOBAL__.ops_init.$gwx=true;
 var nv_require=function(){var nnm={};var nom={};return function(n){return function(){if(!nnm[n]) return undefined;try{if(!nom[n])nom[n]=nnm[n]();return nom[n];}catch(e){e.message=e.message.replace(/nv_/g,'');var tmp = e.stack.substring(0,e.stack.lastIndexOf(n));e.stack = tmp.substring(0,tmp.lastIndexOf('\n'));e.stack = e.stack.replace(/\snv_/g,' ');e.stack = $gstack(e.stack);e.stack += '\n    at ' + n.substring(2);throw e;}
 }}}()
-var x=['./common/echarts/src/echarts.vue.wxml','./components/slots.wxml','/common/echarts/src/echarts.vue.wxml','./pages/analysis/analysis.vue.wxml','./pages/analysis/analysis.wxml','/pages/analysis/analysis.vue.wxml','./pages/login/login.vue.wxml','./pages/login/login.wxml','/pages/login/login.vue.wxml','./pages/main/main.vue.wxml','./pages/main/main.wxml','/pages/main/main.vue.wxml','./pages/personal/personal.vue.wxml','./pages/personal/personal.wxml','/pages/personal/personal.vue.wxml','./pages/pwd/pwd.vue.wxml','./pages/pwd/pwd.wxml','/pages/pwd/pwd.vue.wxml','./pages/reg/reg.vue.wxml','./pages/reg/reg.wxml','/pages/reg/reg.vue.wxml','./pages/user/user.vue.wxml','./pages/user/user.wxml','/pages/user/user.vue.wxml'];d_[x[0]]={}
-d_[x[0]]["2fc5e34b"]=function(e,s,r,gg){
+var x=['./App.vue.wxml','./common/echarts/src/echarts.vue.wxml','./components/slots.wxml','/common/echarts/src/echarts.vue.wxml','/pages/common/tabber.vue.wxml','./pages/analysis/analysis.vue.wxml','./pages/analysis/analysis.wxml','/pages/analysis/analysis.vue.wxml','./pages/common/tabber.vue.wxml','./pages/login/login.vue.wxml','./pages/login/login.wxml','/pages/login/login.vue.wxml','./pages/main/main.vue.wxml','./pages/main/main.wxml','/pages/main/main.vue.wxml','./pages/personal/personal.vue.wxml','./pages/personal/personal.wxml','/pages/personal/personal.vue.wxml','./pages/pwd/pwd.vue.wxml','./pages/pwd/pwd.wxml','/pages/pwd/pwd.vue.wxml','./pages/reg/reg.vue.wxml','./pages/reg/reg.wxml','/pages/reg/reg.vue.wxml','./pages/speed/speed.vue.wxml','./pages/speed/speed.wxml','/pages/speed/speed.vue.wxml','./pages/user/user.vue.wxml','./pages/user/user.wxml','/pages/user/user.vue.wxml'];d_[x[0]]={}
+d_[x[0]]["19198c15"]=function(e,s,r,gg){
 var z=gz$gwx_1()
-var b=x[0]+':2fc5e34b'
+var b=x[0]+':19198c15'
+r.wxVkey=b
+gg.f=$gdc(f_["./App.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[0]);return}
+p_[b]=true
+try{
+cs.push("./App.vue.wxml:view:2:4")
+var oB=_n('view')
+_rz(z,oB,'class',1,e,s,gg)
+cs.push("./App.vue.wxml:page-tabber:3:6")
+var xC=_n('page-tabber')
+_rz(z,xC,'class',2,e,s,gg)
+cs.pop()
+_(oB,xC)
+cs.pop()
+_(r,oB)
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m0=function(e,s,r,gg){
+var z=gz$gwx_1()
+return r
+}
+e_[x[0]]={f:m0,j:[],i:[],ti:[],ic:[]}
+d_[x[1]]={}
+d_[x[1]]["2fc5e34b"]=function(e,s,r,gg){
+var z=gz$gwx_2()
+var b=x[1]+':2fc5e34b'
 r.wxVkey=b
 gg.f=$gdc(f_["./common/echarts/src/echarts.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[0]);return}
+if(p_[b]){_wl(b,x[1]);return}
 p_[b]=true
 try{
 var oB=_v()
@@ -1434,27 +1540,31 @@ throw err
 p_[b]=false
 return r
 }
-var m0=function(e,s,r,gg){
-var z=gz$gwx_1()
-return r
-}
-e_[x[0]]={f:m0,j:[],i:[],ti:[],ic:[]}
-d_[x[1]]={}
 var m1=function(e,s,r,gg){
 var z=gz$gwx_2()
-var xC=e_[x[1]].i
-_ai(xC,x[2],e_,x[1],1,1)
-xC.pop()
 return r
 }
-e_[x[1]]={f:m1,j:[],i:[],ti:[x[2]],ic:[]}
-d_[x[3]]={}
-d_[x[3]]["6e0ec058"]=function(e,s,r,gg){
+e_[x[1]]={f:m1,j:[],i:[],ti:[],ic:[]}
+d_[x[2]]={}
+var m2=function(e,s,r,gg){
 var z=gz$gwx_3()
-var b=x[3]+':6e0ec058'
+var oD=e_[x[2]].i
+_ai(oD,x[3],e_,x[2],1,1)
+_ai(oD,x[4],e_,x[2],2,2)
+_ai(oD,x[3],e_,x[2],3,2)
+oD.pop()
+oD.pop()
+oD.pop()
+return r
+}
+e_[x[2]]={f:m2,j:[],i:[],ti:[x[3],x[4],x[3]],ic:[]}
+d_[x[5]]={}
+d_[x[5]]["6e0ec058"]=function(e,s,r,gg){
+var z=gz$gwx_4()
+var b=x[5]+':6e0ec058'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/analysis/analysis.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[3]);return}
+if(p_[b]){_wl(b,x[5]);return}
 p_[b]=true
 try{
 cs.push("./pages/analysis/analysis.vue.wxml:view:2:4")
@@ -1481,41 +1591,128 @@ throw err
 p_[b]=false
 return r
 }
-var m2=function(e,s,r,gg){
-var z=gz$gwx_3()
-return r
-}
-e_[x[3]]={f:m2,j:[],i:[],ti:[],ic:[]}
-d_[x[4]]={}
 var m3=function(e,s,r,gg){
 var z=gz$gwx_4()
-var cF=e_[x[4]].i
-_ai(cF,x[5],e_,x[4],1,1)
-var hG=_v()
-_(r,hG)
-cs.push("./pages/analysis/analysis.wxml:template:1:51")
-var oH=_oz(z,1,e,s,gg)
-var cI=_gd(x[4],oH,e_,d_)
-if(cI){
-var oJ=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-hG.wxXCkey=3
-cI(oJ,oJ,hG,gg)
-gg.f=cur_globalf
-}
-else _w(oH,x[4],1,63)
-cs.pop()
-cF.pop()
 return r
 }
-e_[x[4]]={f:m3,j:[],i:[],ti:[x[5]],ic:[]}
+e_[x[5]]={f:m3,j:[],i:[],ti:[],ic:[]}
 d_[x[6]]={}
-d_[x[6]]["87eeb09c"]=function(e,s,r,gg){
+var m4=function(e,s,r,gg){
 var z=gz$gwx_5()
-var b=x[6]+':87eeb09c'
+var hG=e_[x[6]].i
+_ai(hG,x[7],e_,x[6],1,1)
+var oH=_v()
+_(r,oH)
+cs.push("./pages/analysis/analysis.wxml:template:1:51")
+var cI=_oz(z,1,e,s,gg)
+var oJ=_gd(x[6],cI,e_,d_)
+if(oJ){
+var lK=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+oH.wxXCkey=3
+oJ(lK,lK,oH,gg)
+gg.f=cur_globalf
+}
+else _w(cI,x[6],1,63)
+cs.pop()
+hG.pop()
+return r
+}
+e_[x[6]]={f:m4,j:[],i:[],ti:[x[7]],ic:[]}
+d_[x[8]]={}
+d_[x[8]]["2b39a2e7"]=function(e,s,r,gg){
+var z=gz$gwx_6()
+var b=x[8]+':2b39a2e7'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/common/tabber.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[8]);return}
+p_[b]=true
+try{
+cs.push("./pages/common/tabber.vue.wxml:view:2:4")
+var oB=_n('view')
+_rz(z,oB,'class',1,e,s,gg)
+cs.push("./pages/common/tabber.vue.wxml:view:3:6")
+var xC=_n('view')
+_rz(z,xC,'class',2,e,s,gg)
+cs.push("./pages/common/tabber.vue.wxml:view:4:8")
+var oD=_mz(z,'view',['bindtap',3,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
+cs.push("./pages/common/tabber.vue.wxml:view:5:10")
+var fE=_n('view')
+_rz(z,fE,'class',7,e,s,gg)
+cs.push("./pages/common/tabber.vue.wxml:view:6:12")
+var cF=_n('view')
+_rz(z,cF,'class',8,e,s,gg)
+cs.pop()
+_(fE,cF)
+cs.pop()
+_(oD,fE)
+cs.push("./pages/common/tabber.vue.wxml:view:8:10")
+var hG=_n('view')
+_rz(z,hG,'class',9,e,s,gg)
+var oH=_oz(z,10,e,s,gg)
+_(hG,oH)
+cs.pop()
+_(oD,hG)
+cs.pop()
+_(xC,oD)
+cs.push("./pages/common/tabber.vue.wxml:view:10:8")
+var cI=_mz(z,'view',['bindtap',11,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
+cs.push("./pages/common/tabber.vue.wxml:view:11:10")
+var oJ=_n('view')
+_rz(z,oJ,'class',15,e,s,gg)
+cs.push("./pages/common/tabber.vue.wxml:view:12:12")
+var lK=_n('view')
+_rz(z,lK,'class',16,e,s,gg)
+cs.pop()
+_(oJ,lK)
+cs.pop()
+_(cI,oJ)
+cs.pop()
+_(xC,cI)
+cs.push("./pages/common/tabber.vue.wxml:view:15:8")
+var aL=_mz(z,'view',['bindtap',17,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
+cs.push("./pages/common/tabber.vue.wxml:view:16:10")
+var tM=_n('view')
+_rz(z,tM,'class',21,e,s,gg)
+cs.push("./pages/common/tabber.vue.wxml:view:17:12")
+var eN=_n('view')
+_rz(z,eN,'class',22,e,s,gg)
+cs.pop()
+_(tM,eN)
+cs.pop()
+_(aL,tM)
+cs.push("./pages/common/tabber.vue.wxml:view:19:10")
+var bO=_n('view')
+_rz(z,bO,'class',23,e,s,gg)
+var oP=_oz(z,24,e,s,gg)
+_(bO,oP)
+cs.pop()
+_(aL,bO)
+cs.pop()
+_(xC,aL)
+cs.pop()
+_(oB,xC)
+cs.pop()
+_(r,oB)
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m5=function(e,s,r,gg){
+var z=gz$gwx_6()
+return r
+}
+e_[x[8]]={f:m5,j:[],i:[],ti:[],ic:[]}
+d_[x[9]]={}
+d_[x[9]]["87eeb09c"]=function(e,s,r,gg){
+var z=gz$gwx_7()
+var b=x[9]+':87eeb09c'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/login/login.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[6]);return}
+if(p_[b]){_wl(b,x[9]);return}
 p_[b]=true
 try{
 cs.push("./pages/login/login.vue.wxml:view:2:4")
@@ -1630,41 +1827,41 @@ throw err
 p_[b]=false
 return r
 }
-var m4=function(e,s,r,gg){
-var z=gz$gwx_5()
+var m6=function(e,s,r,gg){
+var z=gz$gwx_7()
 return r
 }
-e_[x[6]]={f:m4,j:[],i:[],ti:[],ic:[]}
-d_[x[7]]={}
-var m5=function(e,s,r,gg){
-var z=gz$gwx_6()
-var tM=e_[x[7]].i
-_ai(tM,x[8],e_,x[7],1,1)
-var eN=_v()
-_(r,eN)
+e_[x[9]]={f:m6,j:[],i:[],ti:[],ic:[]}
+d_[x[10]]={}
+var m7=function(e,s,r,gg){
+var z=gz$gwx_8()
+var bO=e_[x[10]].i
+_ai(bO,x[11],e_,x[10],1,1)
+var oP=_v()
+_(r,oP)
 cs.push("./pages/login/login.wxml:template:1:45")
-var bO=_oz(z,1,e,s,gg)
-var oP=_gd(x[7],bO,e_,d_)
-if(oP){
-var xQ=_1z(z,0,e,s,gg) || {}
+var xQ=_oz(z,1,e,s,gg)
+var oR=_gd(x[10],xQ,e_,d_)
+if(oR){
+var fS=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-eN.wxXCkey=3
-oP(xQ,xQ,eN,gg)
+oP.wxXCkey=3
+oR(fS,fS,oP,gg)
 gg.f=cur_globalf
 }
-else _w(bO,x[7],1,57)
+else _w(xQ,x[10],1,57)
 cs.pop()
-tM.pop()
+bO.pop()
 return r
 }
-e_[x[7]]={f:m5,j:[],i:[],ti:[x[8]],ic:[]}
-d_[x[9]]={}
-d_[x[9]]["34e0d310"]=function(e,s,r,gg){
-var z=gz$gwx_7()
-var b=x[9]+':34e0d310'
+e_[x[10]]={f:m7,j:[],i:[],ti:[x[11]],ic:[]}
+d_[x[12]]={}
+d_[x[12]]["34e0d310"]=function(e,s,r,gg){
+var z=gz$gwx_9()
+var b=x[12]+':34e0d310'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/main/main.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[9]);return}
+if(p_[b]){_wl(b,x[12]);return}
 p_[b]=true
 try{
 cs.push("./pages/main/main.vue.wxml:view:3:4")
@@ -1742,177 +1939,131 @@ cs.pop()
 _(xC,oD)
 cs.push("./pages/main/main.vue.wxml:swiper-item:23:8")
 var x5=_mz(z,'swiper-item',['catchtouchmove',48,'class',1],[],e,s,gg)
-cs.push("./pages/main/main.vue.wxml:view:24:10")
-var o6=_n('view')
-_rz(z,o6,'class',50,e,s,gg)
-cs.push("./pages/main/main.vue.wxml:view:25:12")
-var f7=_n('view')
-_rz(z,f7,'class',51,e,s,gg)
-cs.push("./pages/main/main.vue.wxml:view:26:14")
-var c8=_n('view')
-_rz(z,c8,'class',52,e,s,gg)
-var h9=_oz(z,53,e,s,gg)
+cs.push("./pages/main/main.vue.wxml:swiper:24:10")
+var o6=_mz(z,'swiper',['class',50,'style',1,'vertical',2],[],e,s,gg)
+cs.push("./pages/main/main.vue.wxml:swiper-item:25:12")
+var f7=_n('swiper-item')
+_rz(z,f7,'class',53,e,s,gg)
+cs.push("./pages/main/main.vue.wxml:scroll-view:26:14")
+var c8=_mz(z,'scroll-view',['scrollY',-1,'bindscroll',54,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
+cs.push("./pages/main/main.vue.wxml:view:27:16")
+var h9=_mz(z,'view',['class',58,'id',1,'style',2],[],e,s,gg)
+cs.pop()
 _(c8,h9)
+cs.push("./pages/main/main.vue.wxml:view:28:16")
+var o0=_mz(z,'view',['class',61,'id',1,'style',2],[],e,s,gg)
+cs.pop()
+_(c8,o0)
+cs.push("./pages/main/main.vue.wxml:view:29:16")
+var cAB=_mz(z,'view',['class',64,'id',1,'style',2],[],e,s,gg)
+cs.pop()
+_(c8,cAB)
 cs.pop()
 _(f7,c8)
-var o0=_v()
-_(f7,o0)
-cs.push("./pages/main/main.vue.wxml:template:27:14")
-var cAB=_oz(z,56,e,s,gg)
-var oBB=_gd(x[9],cAB,e_,d_)
-if(oBB){
-var lCB=_1z(z,55,e,s,gg) || {}
+cs.push("./pages/main/main.vue.wxml:view:31:14")
+var oBB=_n('view')
+_rz(z,oBB,'class',67,e,s,gg)
+cs.push("./pages/main/main.vue.wxml:view:32:16")
+var lCB=_mz(z,'view',['class',68,'style',1],[],e,s,gg)
+var aDB=_v()
+_(lCB,aDB)
+cs.push("./pages/main/main.vue.wxml:template:33:18")
+var tEB=_oz(z,72,e,s,gg)
+var eFB=_gd(x[12],tEB,e_,d_)
+if(eFB){
+var bGB=_1z(z,71,e,s,gg) || {}
 var cur_globalf=gg.f
-o0.wxXCkey=3
-oBB(lCB,lCB,o0,gg)
+aDB.wxXCkey=3
+eFB(bGB,bGB,aDB,gg)
 gg.f=cur_globalf
 }
-else _w(cAB,x[9],27,95)
+else _w(tEB,x[12],33,99)
 cs.pop()
+cs.pop()
+_(oBB,lCB)
+cs.push("./pages/main/main.vue.wxml:view:35:16")
+var oHB=_mz(z,'view',['class',73,'style',1],[],e,s,gg)
+var xIB=_v()
+_(oHB,xIB)
+cs.push("./pages/main/main.vue.wxml:template:36:18")
+var oJB=_oz(z,80,e,s,gg)
+var fKB=_gd(x[12],oJB,e_,d_)
+if(fKB){
+var cLB=_1z(z,77,e,s,gg) || {}
+var cur_globalf=gg.f
+xIB.wxXCkey=3
+fKB(cLB,cLB,xIB,gg)
+gg.f=cur_globalf
+}
+else _w(oJB,x[12],36,170)
+cs.pop()
+cs.pop()
+_(oBB,oHB)
+cs.pop()
+_(f7,oBB)
 cs.pop()
 _(o6,f7)
-cs.pop()
-_(x5,o6)
-cs.pop()
-_(xC,x5)
-cs.push("./pages/main/main.vue.wxml:swiper-item:31:8")
-var aDB=_n('swiper-item')
-_rz(z,aDB,'class',57,e,s,gg)
-cs.push("./pages/main/main.vue.wxml:view:32:10")
-var tEB=_mz(z,'view',['class',58,'style',1],[],e,s,gg)
-var eFB=_oz(z,60,e,s,gg)
-_(tEB,eFB)
-cs.pop()
-_(aDB,tEB)
-cs.pop()
-_(xC,aDB)
-cs.pop()
-_(oB,xC)
-cs.push("./pages/main/main.vue.wxml:view:35:6")
-var bGB=_n('view')
-_rz(z,bGB,'class',61,e,s,gg)
-cs.push("./pages/main/main.vue.wxml:view:36:8")
-var oHB=_mz(z,'view',['bindtap',62,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
-cs.push("./pages/main/main.vue.wxml:view:37:10")
-var xIB=_n('view')
-_rz(z,xIB,'class',66,e,s,gg)
-cs.push("./pages/main/main.vue.wxml:view:38:12")
-var oJB=_n('view')
-_rz(z,oJB,'class',67,e,s,gg)
-cs.pop()
-_(xIB,oJB)
-cs.pop()
-_(oHB,xIB)
-cs.push("./pages/main/main.vue.wxml:view:40:10")
-var fKB=_n('view')
-_rz(z,fKB,'class',68,e,s,gg)
-var cLB=_oz(z,69,e,s,gg)
-_(fKB,cLB)
-cs.pop()
-_(oHB,fKB)
-cs.pop()
-_(bGB,oHB)
-cs.push("./pages/main/main.vue.wxml:view:42:8")
-var hMB=_mz(z,'view',['bindtap',70,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
-cs.push("./pages/main/main.vue.wxml:view:43:10")
+cs.push("./pages/main/main.vue.wxml:swiper-item:40:12")
+var hMB=_n('swiper-item')
+_rz(z,hMB,'class',81,e,s,gg)
+cs.push("./pages/main/main.vue.wxml:view:41:14")
 var oNB=_n('view')
-_rz(z,oNB,'class',74,e,s,gg)
-cs.push("./pages/main/main.vue.wxml:view:44:12")
+_rz(z,oNB,'class',82,e,s,gg)
+cs.push("./pages/main/main.vue.wxml:view:42:16")
 var cOB=_n('view')
-_rz(z,cOB,'class',75,e,s,gg)
+_rz(z,cOB,'class',83,e,s,gg)
+cs.push("./pages/main/main.vue.wxml:view:43:18")
+var oPB=_n('view')
+_rz(z,oPB,'class',84,e,s,gg)
+var lQB=_oz(z,85,e,s,gg)
+_(oPB,lQB)
+cs.pop()
+_(cOB,oPB)
 cs.pop()
 _(oNB,cOB)
 cs.pop()
 _(hMB,oNB)
 cs.pop()
-_(bGB,hMB)
-cs.push("./pages/main/main.vue.wxml:view:47:8")
-var oPB=_mz(z,'view',['bindtap',76,'class',1,'data-comkey',2,'data-eventid',3],[],e,s,gg)
-cs.push("./pages/main/main.vue.wxml:view:48:10")
-var lQB=_n('view')
-_rz(z,lQB,'class',80,e,s,gg)
-cs.push("./pages/main/main.vue.wxml:view:49:12")
-var aRB=_n('view')
-_rz(z,aRB,'class',81,e,s,gg)
-cs.pop()
-_(lQB,aRB)
-cs.pop()
-_(oPB,lQB)
-cs.push("./pages/main/main.vue.wxml:view:51:10")
+_(o6,hMB)
+cs.push("./pages/main/main.vue.wxml:swiper-item:47:12")
+var aRB=_n('swiper-item')
+_rz(z,aRB,'class',86,e,s,gg)
+cs.push("./pages/main/main.vue.wxml:view:48:14")
 var tSB=_n('view')
-_rz(z,tSB,'class',82,e,s,gg)
-var eTB=_oz(z,83,e,s,gg)
+_rz(z,tSB,'class',87,e,s,gg)
+cs.push("./pages/main/main.vue.wxml:view:49:16")
+var eTB=_n('view')
+_rz(z,eTB,'class',88,e,s,gg)
+cs.push("./pages/main/main.vue.wxml:view:50:18")
+var bUB=_n('view')
+_rz(z,bUB,'class',89,e,s,gg)
+var oVB=_oz(z,90,e,s,gg)
+_(bUB,oVB)
+cs.pop()
+_(eTB,bUB)
+cs.pop()
 _(tSB,eTB)
 cs.pop()
-_(oPB,tSB)
+_(aRB,tSB)
 cs.pop()
-_(bGB,oPB)
+_(o6,aRB)
 cs.pop()
-_(oB,bGB)
+_(x5,o6)
 cs.pop()
-_(r,oB)
-}catch(err){
-p_[b]=false
-throw err
-}
-p_[b]=false
-return r
-}
-var m6=function(e,s,r,gg){
-var z=gz$gwx_7()
-var fS=e_[x[9]].i
-_ai(fS,x[2],e_,x[9],1,1)
-fS.pop()
-return r
-}
-e_[x[9]]={f:m6,j:[],i:[],ti:[x[2]],ic:[]}
-d_[x[10]]={}
-var m7=function(e,s,r,gg){
-var z=gz$gwx_8()
-var hU=e_[x[10]].i
-_ai(hU,x[11],e_,x[10],1,1)
-var oV=_v()
-_(r,oV)
-cs.push("./pages/main/main.wxml:template:1:43")
-var cW=_oz(z,1,e,s,gg)
-var oX=_gd(x[10],cW,e_,d_)
-if(oX){
-var lY=_1z(z,0,e,s,gg) || {}
-var cur_globalf=gg.f
-oV.wxXCkey=3
-oX(lY,lY,oV,gg)
-gg.f=cur_globalf
-}
-else _w(cW,x[10],1,55)
+_(xC,x5)
+cs.push("./pages/main/main.vue.wxml:swiper-item:56:8")
+var xWB=_n('swiper-item')
+_rz(z,xWB,'class',91,e,s,gg)
+cs.push("./pages/main/main.vue.wxml:view:57:10")
+var oXB=_mz(z,'view',['class',92,'style',1],[],e,s,gg)
+var fYB=_oz(z,94,e,s,gg)
+_(oXB,fYB)
 cs.pop()
-hU.pop()
-return r
-}
-e_[x[10]]={f:m7,j:[],i:[],ti:[x[11]],ic:[]}
-d_[x[12]]={}
-d_[x[12]]["45f7de50"]=function(e,s,r,gg){
-var z=gz$gwx_9()
-var b=x[12]+':45f7de50'
-r.wxVkey=b
-gg.f=$gdc(f_["./pages/personal/personal.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[12]);return}
-p_[b]=true
-try{
-cs.push("./pages/personal/personal.vue.wxml:view:2:4")
-var oB=_n('view')
-_rz(z,oB,'class',1,e,s,gg)
-cs.push("./pages/personal/personal.vue.wxml:view:3:6")
-var xC=_n('view')
-_rz(z,xC,'class',2,e,s,gg)
-var oD=_oz(z,3,e,s,gg)
-_(xC,oD)
+_(xWB,oXB)
+cs.pop()
+_(xC,xWB)
 cs.pop()
 _(oB,xC)
-cs.push("./pages/personal/personal.vue.wxml:page-tabber:4:6")
-var fE=_n('page-tabber')
-_rz(z,fE,'class',4,e,s,gg)
-cs.pop()
-_(oB,fE)
 cs.pop()
 _(r,oB)
 }catch(err){
@@ -1924,39 +2075,97 @@ return r
 }
 var m8=function(e,s,r,gg){
 var z=gz$gwx_9()
+var hU=e_[x[12]].i
+_ai(hU,x[3],e_,x[12],1,1)
+hU.pop()
 return r
 }
-e_[x[12]]={f:m8,j:[],i:[],ti:[],ic:[]}
+e_[x[12]]={f:m8,j:[],i:[],ti:[x[3]],ic:[]}
 d_[x[13]]={}
 var m9=function(e,s,r,gg){
 var z=gz$gwx_10()
-var e2=e_[x[13]].i
-_ai(e2,x[14],e_,x[13],1,1)
-var b3=_v()
-_(r,b3)
-cs.push("./pages/personal/personal.wxml:template:1:51")
-var o4=_oz(z,1,e,s,gg)
-var x5=_gd(x[13],o4,e_,d_)
-if(x5){
-var o6=_1z(z,0,e,s,gg) || {}
+var cW=e_[x[13]].i
+_ai(cW,x[14],e_,x[13],1,1)
+var oX=_v()
+_(r,oX)
+cs.push("./pages/main/main.wxml:template:1:43")
+var lY=_oz(z,1,e,s,gg)
+var aZ=_gd(x[13],lY,e_,d_)
+if(aZ){
+var t1=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-b3.wxXCkey=3
-x5(o6,o6,b3,gg)
+oX.wxXCkey=3
+aZ(t1,t1,oX,gg)
 gg.f=cur_globalf
 }
-else _w(o4,x[13],1,63)
+else _w(lY,x[13],1,55)
 cs.pop()
-e2.pop()
+cW.pop()
 return r
 }
 e_[x[13]]={f:m9,j:[],i:[],ti:[x[14]],ic:[]}
 d_[x[15]]={}
-d_[x[15]]["290f929a"]=function(e,s,r,gg){
+d_[x[15]]["45f7de50"]=function(e,s,r,gg){
 var z=gz$gwx_11()
-var b=x[15]+':290f929a'
+var b=x[15]+':45f7de50'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/personal/personal.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[15]);return}
+p_[b]=true
+try{
+cs.push("./pages/personal/personal.vue.wxml:view:2:4")
+var oB=_mz(z,'view',['class',1,'style',1],[],e,s,gg)
+cs.push("./pages/personal/personal.vue.wxml:view:3:6")
+var xC=_n('view')
+_rz(z,xC,'class',3,e,s,gg)
+var oD=_oz(z,4,e,s,gg)
+_(xC,oD)
+cs.pop()
+_(oB,xC)
+cs.pop()
+_(r,oB)
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m10=function(e,s,r,gg){
+var z=gz$gwx_11()
+return r
+}
+e_[x[15]]={f:m10,j:[],i:[],ti:[],ic:[]}
+d_[x[16]]={}
+var m11=function(e,s,r,gg){
+var z=gz$gwx_12()
+var o4=e_[x[16]].i
+_ai(o4,x[17],e_,x[16],1,1)
+var x5=_v()
+_(r,x5)
+cs.push("./pages/personal/personal.wxml:template:1:51")
+var o6=_oz(z,1,e,s,gg)
+var f7=_gd(x[16],o6,e_,d_)
+if(f7){
+var c8=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+x5.wxXCkey=3
+f7(c8,c8,x5,gg)
+gg.f=cur_globalf
+}
+else _w(o6,x[16],1,63)
+cs.pop()
+o4.pop()
+return r
+}
+e_[x[16]]={f:m11,j:[],i:[],ti:[x[17]],ic:[]}
+d_[x[18]]={}
+d_[x[18]]["290f929a"]=function(e,s,r,gg){
+var z=gz$gwx_13()
+var b=x[18]+':290f929a'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/pwd/pwd.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[15]);return}
+if(p_[b]){_wl(b,x[18]);return}
 p_[b]=true
 try{
 cs.push("./pages/pwd/pwd.vue.wxml:view:2:4")
@@ -2003,41 +2212,41 @@ throw err
 p_[b]=false
 return r
 }
-var m10=function(e,s,r,gg){
-var z=gz$gwx_11()
+var m12=function(e,s,r,gg){
+var z=gz$gwx_13()
 return r
 }
-e_[x[15]]={f:m10,j:[],i:[],ti:[],ic:[]}
-d_[x[16]]={}
-var m11=function(e,s,r,gg){
-var z=gz$gwx_12()
-var h9=e_[x[16]].i
-_ai(h9,x[17],e_,x[16],1,1)
-var o0=_v()
-_(r,o0)
+e_[x[18]]={f:m12,j:[],i:[],ti:[],ic:[]}
+d_[x[19]]={}
+var m13=function(e,s,r,gg){
+var z=gz$gwx_14()
+var cAB=e_[x[19]].i
+_ai(cAB,x[20],e_,x[19],1,1)
+var oBB=_v()
+_(r,oBB)
 cs.push("./pages/pwd/pwd.wxml:template:1:41")
-var cAB=_oz(z,1,e,s,gg)
-var oBB=_gd(x[16],cAB,e_,d_)
-if(oBB){
-var lCB=_1z(z,0,e,s,gg) || {}
+var lCB=_oz(z,1,e,s,gg)
+var aDB=_gd(x[19],lCB,e_,d_)
+if(aDB){
+var tEB=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-o0.wxXCkey=3
-oBB(lCB,lCB,o0,gg)
+oBB.wxXCkey=3
+aDB(tEB,tEB,oBB,gg)
 gg.f=cur_globalf
 }
-else _w(cAB,x[16],1,53)
+else _w(lCB,x[19],1,53)
 cs.pop()
-h9.pop()
+cAB.pop()
 return r
 }
-e_[x[16]]={f:m11,j:[],i:[],ti:[x[17]],ic:[]}
-d_[x[18]]={}
-d_[x[18]]["2dbbd2c8"]=function(e,s,r,gg){
-var z=gz$gwx_13()
-var b=x[18]+':2dbbd2c8'
+e_[x[19]]={f:m13,j:[],i:[],ti:[x[20]],ic:[]}
+d_[x[21]]={}
+d_[x[21]]["2dbbd2c8"]=function(e,s,r,gg){
+var z=gz$gwx_15()
+var b=x[21]+':2dbbd2c8'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/reg/reg.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[18]);return}
+if(p_[b]){_wl(b,x[21]);return}
 p_[b]=true
 try{
 cs.push("./pages/reg/reg.vue.wxml:view:2:4")
@@ -2116,41 +2325,135 @@ throw err
 p_[b]=false
 return r
 }
-var m12=function(e,s,r,gg){
-var z=gz$gwx_13()
+var m14=function(e,s,r,gg){
+var z=gz$gwx_15()
 return r
 }
-e_[x[18]]={f:m12,j:[],i:[],ti:[],ic:[]}
-d_[x[19]]={}
-var m13=function(e,s,r,gg){
-var z=gz$gwx_14()
-var eFB=e_[x[19]].i
-_ai(eFB,x[20],e_,x[19],1,1)
-var bGB=_v()
-_(r,bGB)
+e_[x[21]]={f:m14,j:[],i:[],ti:[],ic:[]}
+d_[x[22]]={}
+var m15=function(e,s,r,gg){
+var z=gz$gwx_16()
+var oHB=e_[x[22]].i
+_ai(oHB,x[23],e_,x[22],1,1)
+var xIB=_v()
+_(r,xIB)
 cs.push("./pages/reg/reg.wxml:template:1:41")
-var oHB=_oz(z,1,e,s,gg)
-var xIB=_gd(x[19],oHB,e_,d_)
-if(xIB){
-var oJB=_1z(z,0,e,s,gg) || {}
+var oJB=_oz(z,1,e,s,gg)
+var fKB=_gd(x[22],oJB,e_,d_)
+if(fKB){
+var cLB=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-bGB.wxXCkey=3
-xIB(oJB,oJB,bGB,gg)
+xIB.wxXCkey=3
+fKB(cLB,cLB,xIB,gg)
 gg.f=cur_globalf
 }
-else _w(oHB,x[19],1,53)
+else _w(oJB,x[22],1,53)
 cs.pop()
-eFB.pop()
+oHB.pop()
 return r
 }
-e_[x[19]]={f:m13,j:[],i:[],ti:[x[20]],ic:[]}
-d_[x[21]]={}
-d_[x[21]]["5256f1b8"]=function(e,s,r,gg){
-var z=gz$gwx_15()
-var b=x[21]+':5256f1b8'
+e_[x[22]]={f:m15,j:[],i:[],ti:[x[23]],ic:[]}
+d_[x[24]]={}
+d_[x[24]]["4abe2cee"]=function(e,s,r,gg){
+var z=gz$gwx_17()
+var b=x[24]+':4abe2cee'
+r.wxVkey=b
+gg.f=$gdc(f_["./pages/speed/speed.vue.wxml"],"",1)
+if(p_[b]){_wl(b,x[24]);return}
+p_[b]=true
+try{
+cs.push("./pages/speed/speed.vue.wxml:view:4:4")
+var oB=_n('view')
+_rz(z,oB,'class',1,e,s,gg)
+cs.push("./pages/speed/speed.vue.wxml:view:5:6")
+var xC=_n('view')
+_rz(z,xC,'class',2,e,s,gg)
+cs.push("./pages/speed/speed.vue.wxml:view:6:8")
+var oD=_n('view')
+_rz(z,oD,'class',3,e,s,gg)
+var fE=_oz(z,4,e,s,gg)
+_(oD,fE)
+cs.pop()
+_(xC,oD)
+var cF=_v()
+_(xC,cF)
+cs.push("./pages/speed/speed.vue.wxml:template:7:8")
+var hG=_oz(z,7,e,s,gg)
+var oH=_gd(x[24],hG,e_,d_)
+if(oH){
+var cI=_1z(z,6,e,s,gg) || {}
+var cur_globalf=gg.f
+cF.wxXCkey=3
+oH(cI,cI,cF,gg)
+gg.f=cur_globalf
+}
+else _w(hG,x[24],7,89)
+cs.pop()
+cs.pop()
+_(oB,xC)
+var oJ=_v()
+_(oB,oJ)
+cs.push("./pages/speed/speed.vue.wxml:template:9:6")
+var lK=_oz(z,9,e,s,gg)
+var aL=_gd(x[24],lK,e_,d_)
+if(aL){
+var tM=_1z(z,8,e,s,gg) || {}
+var cur_globalf=gg.f
+oJ.wxXCkey=3
+aL(tM,tM,oJ,gg)
+gg.f=cur_globalf
+}
+else _w(lK,x[24],9,72)
+cs.pop()
+cs.pop()
+_(r,oB)
+}catch(err){
+p_[b]=false
+throw err
+}
+p_[b]=false
+return r
+}
+var m16=function(e,s,r,gg){
+var z=gz$gwx_17()
+var oNB=e_[x[24]].i
+_ai(oNB,x[3],e_,x[24],1,1)
+_ai(oNB,x[4],e_,x[24],2,2)
+oNB.pop()
+oNB.pop()
+return r
+}
+e_[x[24]]={f:m16,j:[],i:[],ti:[x[3],x[4]],ic:[]}
+d_[x[25]]={}
+var m17=function(e,s,r,gg){
+var z=gz$gwx_18()
+var oPB=e_[x[25]].i
+_ai(oPB,x[26],e_,x[25],1,1)
+var lQB=_v()
+_(r,lQB)
+cs.push("./pages/speed/speed.wxml:template:1:45")
+var aRB=_oz(z,1,e,s,gg)
+var tSB=_gd(x[25],aRB,e_,d_)
+if(tSB){
+var eTB=_1z(z,0,e,s,gg) || {}
+var cur_globalf=gg.f
+lQB.wxXCkey=3
+tSB(eTB,eTB,lQB,gg)
+gg.f=cur_globalf
+}
+else _w(aRB,x[25],1,57)
+cs.pop()
+oPB.pop()
+return r
+}
+e_[x[25]]={f:m17,j:[],i:[],ti:[x[26]],ic:[]}
+d_[x[27]]={}
+d_[x[27]]["5256f1b8"]=function(e,s,r,gg){
+var z=gz$gwx_19()
+var b=x[27]+':5256f1b8'
 r.wxVkey=b
 gg.f=$gdc(f_["./pages/user/user.vue.wxml"],"",1)
-if(p_[b]){_wl(b,x[21]);return}
+if(p_[b]){_wl(b,x[27]);return}
 p_[b]=true
 try{
 cs.push("./pages/user/user.vue.wxml:view:2:4")
@@ -2196,34 +2499,34 @@ throw err
 p_[b]=false
 return r
 }
-var m14=function(e,s,r,gg){
-var z=gz$gwx_15()
+var m18=function(e,s,r,gg){
+var z=gz$gwx_19()
 return r
 }
-e_[x[21]]={f:m14,j:[],i:[],ti:[],ic:[]}
-d_[x[22]]={}
-var m15=function(e,s,r,gg){
-var z=gz$gwx_16()
-var hMB=e_[x[22]].i
-_ai(hMB,x[23],e_,x[22],1,1)
-var oNB=_v()
-_(r,oNB)
+e_[x[27]]={f:m18,j:[],i:[],ti:[],ic:[]}
+d_[x[28]]={}
+var m19=function(e,s,r,gg){
+var z=gz$gwx_20()
+var xWB=e_[x[28]].i
+_ai(xWB,x[29],e_,x[28],1,1)
+var oXB=_v()
+_(r,oXB)
 cs.push("./pages/user/user.wxml:template:1:43")
-var cOB=_oz(z,1,e,s,gg)
-var oPB=_gd(x[22],cOB,e_,d_)
-if(oPB){
-var lQB=_1z(z,0,e,s,gg) || {}
+var fYB=_oz(z,1,e,s,gg)
+var cZB=_gd(x[28],fYB,e_,d_)
+if(cZB){
+var h1B=_1z(z,0,e,s,gg) || {}
 var cur_globalf=gg.f
-oNB.wxXCkey=3
-oPB(lQB,lQB,oNB,gg)
+oXB.wxXCkey=3
+cZB(h1B,h1B,oXB,gg)
 gg.f=cur_globalf
 }
-else _w(cOB,x[22],1,55)
+else _w(fYB,x[28],1,55)
 cs.pop()
-hMB.pop()
+xWB.pop()
 return r
 }
-e_[x[22]]={f:m15,j:[],i:[],ti:[x[23]],ic:[]}
+e_[x[28]]={f:m19,j:[],i:[],ti:[x[29]],ic:[]}
 if(path&&e_[path]){
 window.__wxml_comp_version__=0.02
 return function(env,dd,global){$gwxc=0;var root={"tag":"wx-page"};root.children=[]
@@ -2282,7 +2585,7 @@ var setCssToHead = function(file, _xcInvalid, info) {
 var Ca = {};
 var css_id;
 var info = info || {};
-var _C= [["body { min-height: 100%; display: -webkit-box; display: -webkit-flex; display: flex; }\n.",[1],"content { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; flex-direction: column; background-color: #efeff4; padding: ",[0,20],"; }\n.",[1],"input-group { background-color: #ffffff; margin-top: ",[0,40],"; position: relative; }\n.",[1],"input-group::before, .",[1],"input-group::after { position: absolute; right: 0; left: 0; height: ",[0,1],"; content: \x27\x27; -webkit-transform: scaleY(0.5); transform: scaleY(0.5); background-color: #c8c7cc; }\n.",[1],"input-group::before { top: 0; }\n.",[1],"input-group::after { bottom: 0; }\n.",[1],"input-row { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; flex-direction: row; position: relative; }\n.",[1],"input-row .",[1],"title { width: 20%; height: ",[0,50],"; min-height: ",[0,50],"; padding: ",[0,15]," 0; padding-left: ",[0,30],"; line-height: ",[0,50],"; }\n.",[1],"input-row .",[1],"_input { width: 80%; height: ",[0,50],"; min-height: ",[0,50],"; padding: ",[0,15]," 0; padding-right: ",[0,30],"; line-height: ",[0,50],"; }\n.",[1],"input-row.",[1],"border::after { position: absolute; right: 0; bottom: 0; left: ",[0,15],"; height: ",[0,1],"; content: \x27\x27; -webkit-transform: scaleY(0.5); transform: scaleY(0.5); background-color: #c8c7cc; }\n.",[1],"btn-row { margin-top: ",[0,50],"; padding: ",[0,20],"; }\n.",[1],"_button.",[1],"primary { background-color: #0faeff; }\nbody { background-color: #F8F8F8; height: 100%; font-size: ",[0,32],"; line-height: 1.6; }\nwx-checkbox, wx-radio { margin-right: ",[0,10],"; }\n.",[1],"_button { margin-top: ",[0,20],"; margin-bottom: ",[0,20],"; }\n.",[1],"_form { width: 100%; }\n.",[1],"swiper-box { -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; width: ",[0,750],"; height: 100%; }\n.",[1],"container { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; flex-direction: column; min-height: 100%; -webkit-box-pack: justify; -webkit-justify-content: space-between; justify-content: space-between; font-size: ",[0,32],"; font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif; }\n.",[1],"page-head { padding: ",[0,60]," ",[0,50]," ",[0,80],"; text-align: center; line-height: initial; height: ",[0,60],"; }\n.",[1],"page-head-title { display: inline-block; padding: 0 ",[0,40],"; font-size: ",[0,30],"; height: ",[0,60],"; line-height: ",[0,60],"; color: #BEBEBE; box-sizing: border-box; border-bottom: ",[0,2]," solid #D8D8D8; }\n.",[1],"page-head-desc { padding-top: ",[0,20],"; color: #9B9B9B; font-size: ",[0,32],"; }\n.",[1],"page-body { width: 100%; -webkit-box-flex: 1; -webkit-flex-grow: 1; flex-grow: 1; overflow-x: hidden; }\n.",[1],"page-body-wrapper { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; align-items: center; width: 100%; }\n.",[1],"page-body-wording { text-align: center; padding: ",[0,200]," ",[0,100],"; }\n.",[1],"page-body-info { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; align-items: center; background-color: #fff; width: 100%; padding: ",[0,50]," 0 ",[0,150]," 0; }\n.",[1],"page-body-title { margin-bottom: ",[0,100],"; font-size: ",[0,32],"; }\n.",[1],"page-body-text { font-size: ",[0,30],"; line-height: ",[0,52],"; color: #ccc; }\n.",[1],"page-body-text-small { font-size: ",[0,24],"; color: #000; margin-bottom: ",[0,100],"; }\n.",[1],"page-foot { margin: ",[0,100]," 0 ",[0,30]," 0; text-align: center; color: #1aad19; font-size: 0; }\n.",[1],"icon-foot { width: ",[0,152],"; height: ",[0,23],"; }\n.",[1],"page-section { width: 100%; margin-bottom: ",[0,60],"; }\n.",[1],"page-section_center { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; align-items: center; }\n.",[1],"page-section:last-child { margin-bottom: 0; }\n.",[1],"page-section-gap { box-sizing: border-box; padding: 0 ",[0,30],"; }\n.",[1],"page-section-spacing { box-sizing: border-box; padding: 0 ",[0,80],"; }\n.",[1],"page-section-title { font-size: ",[0,28],"; color: #999999; margin-top: ",[0,10],"; margin-bottom: ",[0,10],"; padding-left: ",[0,30],"; padding-right: ",[0,30],"; }\n.",[1],"page-section-gap .",[1],"page-section-title { padding-left: 0; padding-right: 0; }\n.",[1],"index-hd { padding: ",[0,90],"; text-align: center; }\n.",[1],"index-logo { width: ",[0,140],"; height: ",[0,140],"; }\n.",[1],"btn-area { margin-top: ",[0,60],"; box-sizing: border-box; width: 100%; padding: 0 ",[0,30],"; }\n.",[1],"image-plus { width: ",[0,150],"; height: ",[0,150],"; border: ",[0,2]," solid #D9D9D9; position: relative; }\n.",[1],"image-plus-nb { border: 0; }\n.",[1],"image-plus-text { color: #888888; font-size: ",[0,28],"; }\n.",[1],"image-plus-horizontal { position: absolute; top: 50%; left: 50%; background-color: #d9d9d9; width: ",[0,4],"; height: ",[0,80],"; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); }\n.",[1],"image-plus-vertical { position: absolute; top: 50%; left: 50%; background-color: #d9d9d9; width: ",[0,80],"; height: ",[0,4],"; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); }\n.",[1],"color1 { background-color: #1AAD19; color: #FFFFFF; }\n.",[1],"color2 { background-color: #2782D7; color: #FFFFFF; }\n.",[1],"color3 { background-color: #F1F1F1; color: #353535; }\n",],];
+var _C= [[[2,1],"body { min-height: 100%; display: -webkit-box; display: -webkit-flex; display: flex; }\n.",[1],"content { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; flex-direction: column; background-color: #efeff4; padding: ",[0,20],"; }\n.",[1],"input-group { background-color: #ffffff; margin-top: ",[0,40],"; position: relative; }\n.",[1],"input-group::before, .",[1],"input-group::after { position: absolute; right: 0; left: 0; height: ",[0,1],"; content: \x27\x27; -webkit-transform: scaleY(0.5); transform: scaleY(0.5); background-color: #c8c7cc; }\n.",[1],"input-group::before { top: 0; }\n.",[1],"input-group::after { bottom: 0; }\n.",[1],"input-row { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-orient: horizontal; -webkit-box-direction: normal; -webkit-flex-direction: row; flex-direction: row; position: relative; }\n.",[1],"input-row .",[1],"title { width: 20%; height: ",[0,50],"; min-height: ",[0,50],"; padding: ",[0,15]," 0; padding-left: ",[0,30],"; line-height: ",[0,50],"; }\n.",[1],"input-row .",[1],"_input { width: 80%; height: ",[0,50],"; min-height: ",[0,50],"; padding: ",[0,15]," 0; padding-right: ",[0,30],"; line-height: ",[0,50],"; }\n.",[1],"input-row.",[1],"border::after { position: absolute; right: 0; bottom: 0; left: ",[0,15],"; height: ",[0,1],"; content: \x27\x27; -webkit-transform: scaleY(0.5); transform: scaleY(0.5); background-color: #c8c7cc; }\n.",[1],"btn-row { margin-top: ",[0,50],"; padding: ",[0,20],"; }\n.",[1],"_button.",[1],"primary { background-color: #0faeff; }\nbody { background-color: #F8F8F8; height: 100%; font-size: ",[0,32],"; line-height: 1.6; }\nwx-checkbox, wx-radio { margin-right: ",[0,10],"; }\n.",[1],"_button { margin-top: ",[0,20],"; margin-bottom: ",[0,20],"; }\n.",[1],"_form { width: 100%; }\n.",[1],"swiper-box { -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; width: ",[0,750],"; height: 100%; }\n.",[1],"container { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; flex-direction: column; min-height: 100%; -webkit-box-pack: justify; -webkit-justify-content: space-between; justify-content: space-between; font-size: ",[0,32],"; font-family: -apple-system-font, Helvetica Neue, Helvetica, sans-serif; }\n.",[1],"page-head { padding: ",[0,60]," ",[0,50]," ",[0,80],"; text-align: center; line-height: initial; height: ",[0,60],"; }\n.",[1],"page-head-title { display: inline-block; padding: 0 ",[0,40],"; font-size: ",[0,30],"; height: ",[0,60],"; line-height: ",[0,60],"; color: #BEBEBE; box-sizing: border-box; border-bottom: ",[0,2]," solid #D8D8D8; }\n.",[1],"page-head-desc { padding-top: ",[0,20],"; color: #9B9B9B; font-size: ",[0,32],"; }\n.",[1],"page-body { width: 100%; -webkit-box-flex: 1; -webkit-flex-grow: 1; flex-grow: 1; overflow-x: hidden; }\n.",[1],"page-body-wrapper { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; align-items: center; width: 100%; }\n.",[1],"page-body-wording { text-align: center; padding: ",[0,200]," ",[0,100],"; }\n.",[1],"page-body-info { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; align-items: center; background-color: #fff; width: 100%; padding: ",[0,50]," 0 ",[0,150]," 0; }\n.",[1],"page-body-title { margin-bottom: ",[0,100],"; font-size: ",[0,32],"; }\n.",[1],"page-body-text { font-size: ",[0,30],"; line-height: ",[0,52],"; color: #ccc; }\n.",[1],"page-body-text-small { font-size: ",[0,24],"; color: #000; margin-bottom: ",[0,100],"; }\n.",[1],"page-foot { margin: ",[0,100]," 0 ",[0,30]," 0; text-align: center; color: #1aad19; font-size: 0; }\n.",[1],"icon-foot { width: ",[0,152],"; height: ",[0,23],"; }\n.",[1],"page-section { width: 100%; margin-bottom: ",[0,60],"; }\n.",[1],"page-section_center { display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; flex-direction: column; -webkit-box-align: center; -webkit-align-items: center; align-items: center; }\n.",[1],"page-section:last-child { margin-bottom: 0; }\n.",[1],"page-section-gap { box-sizing: border-box; padding: 0 ",[0,30],"; }\n.",[1],"page-section-spacing { box-sizing: border-box; padding: 0 ",[0,80],"; }\n.",[1],"page-section-title { font-size: ",[0,28],"; color: #999999; margin-top: ",[0,10],"; margin-bottom: ",[0,10],"; padding-left: ",[0,30],"; padding-right: ",[0,30],"; }\n.",[1],"page-section-gap .",[1],"page-section-title { padding-left: 0; padding-right: 0; }\n.",[1],"index-hd { padding: ",[0,90],"; text-align: center; }\n.",[1],"index-logo { width: ",[0,140],"; height: ",[0,140],"; }\n.",[1],"btn-area { margin-top: ",[0,60],"; box-sizing: border-box; width: 100%; padding: 0 ",[0,30],"; }\n.",[1],"image-plus { width: ",[0,150],"; height: ",[0,150],"; border: ",[0,2]," solid #D9D9D9; position: relative; }\n.",[1],"image-plus-nb { border: 0; }\n.",[1],"image-plus-text { color: #888888; font-size: ",[0,28],"; }\n.",[1],"image-plus-horizontal { position: absolute; top: 50%; left: 50%; background-color: #d9d9d9; width: ",[0,4],"; height: ",[0,80],"; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); }\n.",[1],"image-plus-vertical { position: absolute; top: 50%; left: 50%; background-color: #d9d9d9; width: ",[0,80],"; height: ",[0,4],"; transform: translate(-50%, -50%); -webkit-transform: translate(-50%, -50%); }\n.",[1],"color1 { background-color: #1AAD19; color: #FFFFFF; }\n.",[1],"color2 { background-color: #2782D7; color: #FFFFFF; }\n.",[1],"color3 { background-color: #F1F1F1; color: #353535; }\n",],["@font-face { font-family: uniicons; font-weight: normal; font-style: normal; src: url(\x27https://img-cdn-qiniu.dcloud.net.cn/fonts/uni.ttf\x27) format(\x27truetype\x27); }\n.",[1],"uni-icon { font-family: uniicons; font-size: ",[0,48],"; font-weight: normal; font-style: normal; line-height: 1; display: inline-block; text-decoration: none; -webkit-font-smoothing: antialiased; }\n.",[1],"uni-icon.",[1],"uni-active { color: #007aff; }\n.",[1],"uni-icon-contact:before { content: \x27\\E100\x27; }\n.",[1],"uni-icon-person:before { content: \x27\\E101\x27; }\n.",[1],"uni-icon-personadd:before { content: \x27\\E102\x27; }\n.",[1],"uni-icon-contact-filled:before { content: \x27\\E130\x27; }\n.",[1],"uni-icon-person-filled:before { content: \x27\\E131\x27; }\n.",[1],"uni-icon-personadd-filled:before { content: \x27\\E132\x27; }\n.",[1],"uni-icon-phone:before { content: \x27\\E200\x27; }\n.",[1],"uni-icon-email:before { content: \x27\\E201\x27; }\n.",[1],"uni-icon-chatbubble:before { content: \x27\\E202\x27; }\n.",[1],"uni-icon-chatboxes:before { content: \x27\\E203\x27; }\n.",[1],"uni-icon-phone-filled:before { content: \x27\\E230\x27; }\n.",[1],"uni-icon-email-filled:before { content: \x27\\E231\x27; }\n.",[1],"uni-icon-chatbubble-filled:before { content: \x27\\E232\x27; }\n.",[1],"uni-icon-chatboxes-filled:before { content: \x27\\E233\x27; }\n.",[1],"uni-icon-weibo:before { content: \x27\\E260\x27; }\n.",[1],"uni-icon-weixin:before { content: \x27\\E261\x27; }\n.",[1],"uni-icon-pengyouquan:before { content: \x27\\E262\x27; }\n.",[1],"uni-icon-chat:before { content: \x27\\E263\x27; }\n.",[1],"uni-icon-qq:before { content: \x27\\E264\x27; }\n.",[1],"uni-icon-videocam:before { content: \x27\\E300\x27; }\n.",[1],"uni-icon-camera:before { content: \x27\\E301\x27; }\n.",[1],"uni-icon-mic:before { content: \x27\\E302\x27; }\n.",[1],"uni-icon-location:before { content: \x27\\E303\x27; }\n.",[1],"uni-icon-mic-filled:before, .",[1],"uni-icon-speech:before { content: \x27\\E332\x27; }\n.",[1],"uni-icon-location-filled:before { content: \x27\\E333\x27; }\n.",[1],"uni-icon-micoff:before { content: \x27\\E360\x27; }\n.",[1],"uni-icon-image:before { content: \x27\\E363\x27; }\n.",[1],"uni-icon-map:before { content: \x27\\E364\x27; }\n.",[1],"uni-icon-compose:before { content: \x27\\E400\x27; }\n.",[1],"uni-icon-trash:before { content: \x27\\E401\x27; }\n.",[1],"uni-icon-upload:before { content: \x27\\E402\x27; }\n.",[1],"uni-icon-download:before { content: \x27\\E403\x27; }\n.",[1],"uni-icon-close:before { content: \x27\\E404\x27; }\n.",[1],"uni-icon-redo:before { content: \x27\\E405\x27; }\n.",[1],"uni-icon-undo:before { content: \x27\\E406\x27; }\n.",[1],"uni-icon-refresh:before { content: \x27\\E407\x27; }\n.",[1],"uni-icon-star:before { content: \x27\\E408\x27; }\n.",[1],"uni-icon-plus:before { content: \x27\\E409\x27; }\n.",[1],"uni-icon-minus:before { content: \x27\\E410\x27; }\n.",[1],"uni-icon-circle:before, .",[1],"uni-icon-checkbox:before { content: \x27\\E411\x27; }\n.",[1],"uni-icon-close-filled:before, .",[1],"uni-icon-clear:before { content: \x27\\E434\x27; }\n.",[1],"uni-icon-refresh-filled:before { content: \x27\\E437\x27; }\n.",[1],"uni-icon-star-filled:before { content: \x27\\E438\x27; }\n.",[1],"uni-icon-plus-filled:before { content: \x27\\E439\x27; }\n.",[1],"uni-icon-minus-filled:before { content: \x27\\E440\x27; }\n.",[1],"uni-icon-circle-filled:before { content: \x27\\E441\x27; }\n.",[1],"uni-icon-checkbox-filled:before { content: \x27\\E442\x27; }\n.",[1],"uni-icon-closeempty:before { content: \x27\\E460\x27; }\n.",[1],"uni-icon-refreshempty:before { content: \x27\\E461\x27; }\n.",[1],"uni-icon-reload:before { content: \x27\\E462\x27; }\n.",[1],"uni-icon-starhalf:before { content: \x27\\E463\x27; }\n.",[1],"uni-icon-spinner:before { content: \x27\\E464\x27; }\n.",[1],"uni-icon-spinner-cycle:before { content: \x27\\E465\x27; }\n.",[1],"uni-icon-search:before { content: \x27\\E466\x27; }\n.",[1],"uni-icon-plusempty:before { content: \x27\\E468\x27; }\n.",[1],"uni-icon-forward:before { content: \x27\\E470\x27; }\n.",[1],"uni-icon-back:before, .",[1],"uni-icon-left-nav:before { content: \x27\\E471\x27; }\n.",[1],"uni-icon-checkmarkempty:before { content: \x27\\E472\x27; }\n.",[1],"uni-icon-home:before { content: \x27\\E500\x27; }\n.",[1],"uni-icon-navigate:before { content: \x27\\E501\x27; }\n.",[1],"uni-icon-gear:before { content: \x27\\E502\x27; }\n.",[1],"uni-icon-paperplane:before { content: \x27\\E503\x27; }\n.",[1],"uni-icon-info:before { content: \x27\\E504\x27; }\n.",[1],"uni-icon-help:before { content: \x27\\E505\x27; }\n.",[1],"uni-icon-locked:before { content: \x27\\E506\x27; }\n.",[1],"uni-icon-more:before { content: \x27\\E507\x27; }\n.",[1],"uni-icon-flag:before { content: \x27\\E508\x27; }\n.",[1],"uni-icon-home-filled:before { content: \x27\\E530\x27; }\n.",[1],"uni-icon-gear-filled:before { content: \x27\\E532\x27; }\n.",[1],"uni-icon-info-filled:before { content: \x27\\E534\x27; }\n.",[1],"uni-icon-help-filled:before { content: \x27\\E535\x27; }\n.",[1],"uni-icon-more-filled:before { content: \x27\\E537\x27; }\n.",[1],"uni-icon-settings:before { content: \x27\\E560\x27; }\n.",[1],"uni-icon-list:before { content: \x27\\E562\x27; }\n.",[1],"uni-icon-bars:before { content: \x27\\E563\x27; }\n.",[1],"uni-icon-loop:before { content: \x27\\E565\x27; }\n.",[1],"uni-icon-paperclip:before { content: \x27\\E567\x27; }\n.",[1],"uni-icon-eye:before { content: \x27\\E568\x27; }\n.",[1],"uni-icon-arrowup:before { content: \x27\\E580\x27; }\n.",[1],"uni-icon-arrowdown:before { content: \x27\\E581\x27; }\n.",[1],"uni-icon-arrowleft:before { content: \x27\\E582\x27; }\n.",[1],"uni-icon-arrowright:before { content: \x27\\E583\x27; }\n.",[1],"uni-icon-arrowthinup:before { content: \x27\\E584\x27; }\n.",[1],"uni-icon-arrowthindown:before { content: \x27\\E585\x27; }\n.",[1],"uni-icon-arrowthinleft:before { content: \x27\\E586\x27; }\n.",[1],"uni-icon-arrowthinright:before { content: \x27\\E587\x27; }\n.",[1],"uni-icon-pulldown:before { content: \x27\\E588\x27; }\n.",[1],"tab { position: fixed; z-index: 999; height: ",[0,100],"; width: 100%; bottom: 0; background-color: #ffffff; display: -webkit-box; display: -webkit-flex; display: flex; border-top: #CCCCCC ",[0,2]," solid; }\n.",[1],"tab .",[1],"item { width: 33.33333333%; color: #929292; font-size: ",[0,24],"; display: -webkit-box; display: -webkit-flex; display: flex; -webkit-box-align: center; -webkit-align-items: center; align-items: center; -webkit-box-orient: vertical; -webkit-box-direction: normal; -webkit-flex-direction: column; flex-direction: column; -webkit-box-pack: center; -webkit-justify-content: center; justify-content: center; }\n.",[1],"tab .",[1],"item:nth-child(2) .",[1],"uni-icon { border-radius: 50%; font-size: ",[0,100],"; margin-top: ",[0,-40],"; background: #ffffff; padding: ",[0,5],"; }\n.",[1],"tab .",[1],"item:nth-child(2) .",[1],"text { font-size: ",[0,24],"; padding-top: ",[0,36],"; }\n.",[1],"tab .",[1],"item.",[1],"active { color: #20D785 !important; }\n.",[1],"ec-canvas.",[1],"data-v-86502cc6 { width: 100%; height: 100%; -webkit-box-flex: 1; -webkit-flex: 1; flex: 1; }\n",],];
 function makeup(file, opt) {
 var _n = typeof(file) === "number";
 if ( _n && Ca.hasOwnProperty(file)) return "";

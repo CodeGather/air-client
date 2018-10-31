@@ -4,12 +4,14 @@
 				<view class="title">饼图示例</view>
 				<mpvue-echarts :echarts="echarts" :onInit="pieInit" canvasId="pie" />
 			</view>
+		<page-tabber></page-tabber>
 		</div>
 </template>
 
 <script>
 	import * as echarts from '../../common/echarts/echarts.simple.min.js';
 	import mpvueEcharts from '../../common/echarts/src/echarts.vue';
+	import pageTabber from '../common/tabber.vue';
 	function getPieOption() {
 			return {
 				animation: false,
@@ -67,7 +69,8 @@
 			}
 		},
 		components: {
-			mpvueEcharts
+			mpvueEcharts,
+			pageTabber
 		},
 		onLoad: function () {
 			// this.newsitems = this.randomfn()

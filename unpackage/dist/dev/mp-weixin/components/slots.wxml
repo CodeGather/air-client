@@ -1,1 +1,4 @@
 <import src="/common/echarts/src/echarts.vue.wxml" />
+<import src="/common/echarts/src/echarts.vue.wxml" />
+<import src="/pages/common/tabber.vue.wxml" />
+<import src="/pages/common/tabber.vue.wxml" />

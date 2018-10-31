@@ -59,32 +59,14 @@
 				<view class="swiper-item" style="background-color: #307DCA;">我的</view>
 			</swiper-item>
 		</swiper>
-		<view class="tab">
-			<view :class="active==0?'item active':'item'" @tap="active=0">
-				<view>
-					<view class="uni-icon uni-icon-home"></view>
-				</view>
-				<view>进度</view>
-			</view>
-			<view :class="active==1?'item active':'item'" @tap="active=1">
-				<view>
-					<view class="uni-icon uni-icon-plus-filled"></view>
-				</view>
-				<!-- <view class="text">发布</view> -->
-			</view>
-			<view :class="active==2?'item active':'item'" @tap="tapFn">
-				<view>
-					<view class="uni-icon uni-icon-person"></view>
-				</view>
-				<view>我的</view>
-			</view>
-		</view>
+		<!-- <page-tabber></page-tabber> -->
 	</view>
 </template>
 
 <script>
 	import * as echarts from '../../common/echarts/echarts.simple.min.js';
 	import mpvueEcharts from '../../common/echarts/src/echarts.vue';
+	import pageTabber from '../common/tabber.vue';
 	function getPieOption() {
 		return {
 			animation: false,
@@ -217,7 +199,8 @@
 			}
 		},
 		components: {
-			mpvueEcharts
+			mpvueEcharts,
+			pageTabber
 		},
 		onLoad: function () {
 			this.newsitems = this.randomfn()

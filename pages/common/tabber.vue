@@ -45,7 +45,8 @@
 		methods: {
 			itemClick: function(e, idx){
 				this.active = idx;
-				uni.navigateTo({
+				console.log(e)
+				uni.redirectTo({
 					url: e
 				});
 			}

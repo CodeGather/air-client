@@ -1,21 +1,11 @@
+<import src="/common/echarts/src/echarts.vue.wxml" />
+<import src="/pages/common/tabber.vue.wxml" />
 <template name="4abe2cee">
-  <view class="_view data-v-4f24407d index">
-    <scroll-view id="tab-bar" class="_scroll-view data-v-4f24407d swiper-tab" scroll-x scroll-left="{{scrollLeft}}">
-      <block wx:key="tab.id" key="{{tab.id}}" wx:for="{{tabs}}" wx:for-index="index" wx:for-item="tab">
-        <view id="{{tab.id}}" data-current="{{index}}" bindtap="handleProxy" data-eventid="{{'los-0-'+index}}" data-comkey="{{$k}}" class="_view data-v-4f24407d {{['swiper-tab-list', currentTab == index ? 'on' : '']}}">{{tab.name}}</view>
-      </block>
-    </scroll-view>
-    <swiper current="{{currentTab}}" class="_swiper data-v-4f24407d swiper-box" duration="300" bindchange="handleProxy" data-eventid="{{'cdZ-2'}}" data-comkey="{{$k}}">
-      <block wx:key="index1" key="{{index1}}" wx:for="{{newsitems}}" wx:for-index="index1" wx:for-item="tab">
-        <swiper-item class="_swiper-item data-v-4f24407d">
-          <scroll-view class="_scroll-view data-v-4f24407d index-bd" scroll-y bindscrolltolower="handleProxy" data-eventid="{{'3wx-1-'+index1}}" data-comkey="{{$k}}">
-            <block wx:key="index2" key="{{index2}}" wx:for="{{tab}}" wx:for-index="index2" wx:for-item="newsitem">
-              <view class="_view data-v-4f24407d tab-list">{{newsitem.name}}-{{newsitem.label}}</view>
-            </block>
-          </scroll-view>
-        </swiper-item>
-      </block>
-    </swiper>
-    <page-tabber class="_page-tabber data-v-4f24407d"></page-tabber>
+  <view class="_div data-v-4f24407d container">
+    <view class="_view data-v-4f24407d canvasView">
+      <view class="_view data-v-4f24407d title">饼图示例</view>
+      <template canvasId="pie" data="{{...$root['0'], ...$root[$kk+'K31-0'],$root}}" is="2fc5e34b"></template>
+    </view>
+    <template data="{{...$root['0'], ...$root[$kk+'4Zr-1'],$root}}" is="2b39a2e7"></template>
   </view>
 </template>

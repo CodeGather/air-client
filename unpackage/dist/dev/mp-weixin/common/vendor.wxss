@@ -283,21 +283,6 @@
 .uni-icon-pulldown:before {
   content: '\E588';
 }
-.swiper-item {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: flex;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  background-color: #ffffff;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  align-items: center;
-}
 .tab {
   position: fixed;
   z-index: 999;
@@ -341,4 +326,11 @@
 }
 .tab .item.active {
   color: #20D785 !important;
+}
+.ec-canvas.data-v-86502cc6 {
+  width: 100%;
+  height: 100%;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
 }
