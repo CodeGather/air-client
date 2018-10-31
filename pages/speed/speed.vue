@@ -70,7 +70,7 @@
 			mpvueEcharts
 		},
 		onLoad: function () {
-			this.newsitems = this.randomfn()
+			// this.newsitems = this.randomfn()
 		},
 		onUnload:function(){
 			this.scrollLeft = 0,

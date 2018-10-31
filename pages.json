@@ -38,8 +38,20 @@
             "style": {
                 "navigationBarTitleText": "我的"
             }
+        }, {
+            "path": "pages/speed/speed",
+            "style": {
+                "navigationBarTitleText": "分析"
+            }
         }
     ],
+    "tabBar": {
+        "list": [{
+            "pagePath": "pages/analysis/analysis"
+        }, {
+            "pagePath": "pages/speed/speed"
+        }]
+    },
     "globalStyle": {
         "navigationBarTextStyle": "white",
         "navigationBarBackgroundColor": "#0faeff",

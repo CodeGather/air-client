@@ -72,7 +72,7 @@
 				</view>
 				<!-- <view class="text">发布</view> -->
 			</view>
-			<view :class="active==2?'item active':'item'" @tap="active=2">
+			<view :class="active==2?'item active':'item'" @tap="tapFn">
 				<view>
 					<view class="uni-icon uni-icon-person"></view>
 				</view>
@@ -231,6 +231,11 @@
 			scroll: function (e) {
 				console.log(e)
 			},
+      tapFn: function(){
+        uni.switchTab({
+          url: '../speed/speed'
+        });
+      },
 			goBrowser() {
 				// #ifdef APP-PLUS
 				plus.runtime.openURL("https://github.com/F-loat/mpvue-echarts");

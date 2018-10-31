@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import App from './App'
+import tabber from './pages/common/tabber.vue'
 
+
+Vue.use(tabber)
 import store from './store'
 
 Vue.config.productionTip = false
